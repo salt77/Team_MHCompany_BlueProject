@@ -1,0 +1,325 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++에서 생성한 포함 파일입니다.
+// MFC_Project.rc에서 사용되고 있습니다.
+//
+#define IDD_ABOUTBOX                    100
+#define IDP_OLE_INIT_FAILED             101
+#define IDR_MAINFRAME                   128
+#define IDR_MFC_ProjectTYPE             130
+
+#define IDD_MH_POPUPTOOL_OBJECTTREE     1100
+#define IDC_MH_MenuTab                  1101
+#define IDD_MH_MENUFORM                 1102
+#define IDD_MH_TOOL_WORLD               1103
+#define IDD_MH_TOOL_CAMERA              1104
+#define IDD_MH_TOOL_USERINTERFACE       1105
+#define IDD_MH_TOOL_UI                  1106
+#define IDD_MH_TOOL_MAP                 1107
+#define IDC_MH_MFC_COLORBUTTON          1108
+#define IDD_PUPUP_TOOL_OBJECT_TREE      1109
+#define IDC_MH_OBJECTTREE_BUTTON_UPDATE 1110
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_TL 1111
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_TC 1112
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_TR 1113
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_CL 1114
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_C 1115
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_CR 1116
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_BL 1117
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_BC 1118
+#define IDC_MH_Ui_MFCBUTTON_Pivot_Anchor_BR 1119
+#define IDC_MH_UITOOL_STATICBOX_PIVOT_ANCHOR 1120
+#define IDC_STATICTEXT_PivotAnchor_State 1121
+#define IDC_MH_UITOOL_Edit_TextBox      1122
+#define IDC_MH_UITOOL_PICTURE_CONTROL   1123
+#define IDC_MH_UI_POSITION_X            1124
+#define IDC_MH_SLIDER_TEXT_COLOR_ALPHA  1125
+#define IDC_MH_UI_POSITION_Y            1126
+#define IDC_MH_UI_POSITION_Z            1127
+#define IDC_MH_UI_SIZE_X                1128
+#define IDC_MH_UI_SIZE_Y                1129
+#define IDC_MH_UI_SIZE_Z                1130
+#define IDC_MH_UI_SORTING_LAYER         1131
+#define IDC_MH_UI_ORDERINLAYER          1132
+#define IDC_MH_UI_TEXTPOSITION_X        1133
+#define IDC_MH_UI_TEXTPOSITION_Y        1134
+#define IDC_MH_COMBO_FONTTYPE           1135
+#define IDC_MH_UITOOL_CHILDSIZE_X       1136
+#define IDC_MH_POPUPTOOL_CONSOLECLEAR_BUTTON 1137
+#define IDC_MH_POPUPTOOL_TEXTURELIST_BUTTON 1138
+#define IDC_MH_POPUPTOOL_OBJECT_DELETE  1139
+#define IDC_MH_UITOOL_BOLD              1140
+#define IDC_MH_UITOOL_BUTTON_CREATE     1141
+#define IDC_MH_UITOOL_BUTTON_SAVE_PREFAB 1142
+#define IDC_MH_UITOOL_BUTTON_LOAD_PREFAB 1143
+#define IDC_MH_UITOOL_BUTTON_SAVE_UI_LAYER 1144
+#define IDC_MH_EDIT_UI_IMAGE            1145
+#define IDC_MH_UITOOL_BUTTON_LOAD_UI_LAYER 1146
+#define IDC_MH_TEXTURETREE_TOOL_PICTURE 1147
+#define IDC_MH_POPUPTOOL_TEXTURETREE    1148
+#define IDD_MH_POPUPTOOL_TEXTURETREE    1149
+#define IDD_MH_TOOL_ANIMATION           1150
+#define IDD_MH_TOOL_EFFECT              1151
+#define IDD_MH_TOOL_PARTICLE            1152
+#define IDC_MH_UITOOL_COMBO_CREATE_UI_TYPE 1153
+#define IDC_MH_ANIMATIONTOOL_DMESH_LISTBOX 1154
+#define IDC_MH_ANIMATIONTOOL_ANIMATION_SLIDER 1155
+#define IDC_MH_ANIMATIONTOOL_ANIMATION_LIST 1156
+#define IDC_MH_POPUPTOOL_EDIT_TRANSFORM_X 1157
+#define IDC_MH_POPUPTOOL_EDIT_TRANSFORM_Y 1158
+#define IDC_MH_POPUPTOOL_EDIT_TRANSFORM_Z 1159
+#define IDC_MH_POPUPTOOL_EDIT_ROTATION_X 1160
+#define IDC_MH_POPUPTOOL_EDIT_ROTATION_Y 1161
+#define IDC_MH_POPUPTOOL_EDIT_ROTATION_Z 1162
+#define IDC_MH_POPUPTOOL_EDIT_SCALE_X   1163
+#define IDC_MH_POPUPTOOL_EDIT_SCALE_Y   1164
+#define IDC_MH_POPUPTOOL_EDIT_SCALE_Z   1165
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_OPTION 1166
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_CHILD_SIZE 1167
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_PADDING 1168
+#define IDC_MH_UITOOL_COMBO_PADDING_DIR 1169
+#define IDC_MH_UITOOL_PADDING_AMOUNT    1170
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_SPACING 1171
+#define IDC_MH_UITOOL_SPACING_X         1172
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_POSITION_X 1173
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_POSITION_Y 1174
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_SPACING_X 1175
+#define IDC_MH_UITOOL_SPACING_Y         1176
+#define IDC_MH_UITOOL_CHILDSIZE_Y       1177
+#define IDC_MH_UITOOL_STATIC_SCROLLVIEW_SPACING_Y 1178
+#define IDC_MH_1216_EVENT_BUTTON_CHILD  1179
+#define IDC_MH_1216_LISTBOX_EVENTVECTOR 1180
+#define IDC_MH_1216_EVENT_BUTTON_PARENT 1181
+#define IDC_MH_UITOOL_COMBO_GEOMETRY    1326
+#define IDC_MH_UITOOL_SPACING           1333
+#define IDC_MH_COMBO_GEOMETRY           1334
+#define IDC_MH_UITOOL_CHILDSIZE_USE     1454
+#define IDC_MH_1216_COMBO_EVENTTYPE     1654
+#define IDC_MH_1216_EDIT_EVENTNUMBER    1674
+#define IDC_MH_1216_EVENT_BUTTON_CLEAR  1756
+
+#pragma endregion 
+
+#pragma region 종호 
+
+#define IDC_JH_Map_List_Box             2001
+#define IDC_JH_Group_Box                2002
+#define IDC_JH_Group_Box2               2003
+#define IDC_JH_Group_Box3               2004
+#define IDC_JH_Group_Box4               2005
+#define IDC_JH_Group_Box5               2006
+#define IDC_JH_Group_Box6               2007
+#define IDC_JH_Group_Box7               2008
+#define IDC_JH_Group_Box8               2009
+#define IDC_JH_Add_Map                  2010
+#define IDC_JH_Save_Map                 2011
+#define IDC_JH_Load_Map                 2012
+#define IDC_JH_Map_Tree_Obstacle        2013
+#define IDC_JH_Add_Obstacle             2014
+#define IDC_JH_Save_Obstacle            2015
+#define IDC_JH_Load_Obstacle            2016
+#define IDC_JH_Obstacle_Move_Check_Box  2017
+#define IDC_JH_STATIC1                  2018
+#define IDC_JH_STATIC2                  2019
+#define IDC_JH_STATIC3                  2020
+#define IDC_JH_STATIC4                  2021
+#define IDC_JH_STATIC5                  2022
+#define IDC_JH_STATIC6                  2023
+#define IDC_JH_CHECKBOX_OBSTACLE        2024
+<<<<<<< HEAD
+=======
+
+#pragma endregion 
+
+#pragma region 민우 
+
+>>>>>>> main
+#define IDC_MW_SAMPLE_LIST              3086
+#define IDC_MW_BUTTON_SAVE_PARTICLE     3087
+#define IDC_MW_LOAD_PARTICLE            3088
+#define IDC_MW_POSX                     3089
+#define IDC_MW_POSY                     3090
+#define IDC_MW_POSZ                     3091
+#define IDC_MW_EDIT_SPAWNER_POS_X       3092
+#define IDC_MW_BUTTON_ADD_SAMPLE        3093
+#define IDC_MW_BUTTON_DELETE_SAMPLE     3094
+#define IDC_MW_ADD_MIN_POSX             3095
+#define IDC_MW_ADD_MIN_POSY             3096
+#define IDC_MW_ADD_MIN_POSZ             3097
+#define IDC_MW_ADD_MAX_POSX             3098
+#define IDC_MW_ADD_MAX_POSY             3099
+#define IDC_MW_ADD_MAX_POSZ             3100
+#define IDC_MW_ROTX                     3101
+#define IDC_MW_ROTY                     3102
+#define IDC_MW_ROTZ                     3103
+#define IDC_MW_ADD_MIN_ROTX             3104
+#define IDC_MW_ADD_MIN_ROTY             3105
+#define IDC_MW_ADD_MIN_ROTZ             3106
+#define IDC_MW_ADD_MAX_ROTX             3107
+#define IDC_MW_ADD_MAX_ROTY             3108
+#define IDC_MW_ADD_MAX_ROTZ             3109
+#define IDC_MW_SCALEX                   3110
+#define IDC_MW_SCALEY                   3111
+#define IDC_MW_SCALEZ                   3112
+#define IDC_MW_ADD_MIN_SCALEX           3113
+#define IDC_MW_ADD_MIN_SCALEY           3114
+#define IDC_MW_ADD_MIN_SCALEZ           3115
+#define IDC_MW_ADD_MAX_SCALEX           3116
+#define IDC_MW_ADD_MAX_SCALEY           3117
+#define IDC_MW_ADD_MAX_SCALEZ           3118
+#define IDC_MW_EDIT_SPAWNER_POS_Y       3119
+#define IDC_MW_EDIT_SPAWNER_POS_Z       3120
+#define IDC_MW_EDIT_SAMPLE_LIFE_TIME    3121
+#define IDC_MW_EDIT_SPAWNER_ROT_X       3122
+#define IDC_MW_GROUP_PARTICLE           3123
+#define IDC_MW_GROUP_PARTICLE_SAMPLE    3124
+#define IDC_MW_STATIC_SAMPLE_LIST       3125
+#define IDC_MW_EDIT_SAMPLE_A            3126
+#define IDC_MW_EDIT_SAMPLE_B            3127
+#define IDC_MW_EDIT_SAMPLE_G            3128
+#define IDC_MW_EDIT_SAMPLE_R            3129
+#define IDC_MW_EDIT_SAMPLE_ADD_MIN_COLOR_A 3130
+#define IDC_MW_EDIT_SAMPLE_ADD_MIN_COLOR_B 3131
+#define IDC_MW_EDIT_SAMPLE_ADD_MIN_COLOR_G 3132
+#define IDC_MW_EDIT_SAMPLE_ADD_MIN_COLOR_R 3133
+#define IDC_MW_EDIT_SAMPLE_ADD_MAX_COLOR_A 3134
+#define IDC_MW_EDIT_SAMPLE_ADD_MAX_COLOR_B 3135
+#define IDC_MW_EDIT_SAMPLE_ADD_MAX_COLOR_G 3136
+#define IDC_MW_EDIT_SAMPLE_ADD_MAX_COLOR_R 3137
+#define IDC_MW_WAIT_SPAWNER_LIST        3138
+#define IDC_MW_SAMPLE_SYSTEM_COMBO      3139
+#define IDC_MW_ADD_SPAWNER              3140
+#define IDC_MW_DELETE_SPAWNER           3141
+#define IDC_MW_EDIT_SPAWNER_ROT_Y       3142
+#define IDC_MW_EDIT_SPAWNER_ROT_Z       3143
+#define IDC_MW_COMBO_SPAWNER_SYSTEM     3144
+#define IDC_MW_EDIT_SPAWNER_SPAWN_MIN_POS_X 3147
+#define IDC_MW_EDIT_SPAWNER_SPAWN_MIN_POS_Y 3148
+#define IDC_MW_EDIT_SPAWNER_SPAWN_MIN_POS_Z 3149
+#define IDC_MW_EDIT_SPAWNER_SPAWN_MAX_POS_X 3150
+#define IDC_MW_EDIT_SPAWNER_SPAWN_MAX_POS_Y 3151
+#define IDC_MW_EDIT_SPAWNER_SPAWN_MAX_POS_Z 3152
+#define IDC_MW_EDIT_SPAWNER_LIFE_TIME   3153
+#define IDC_MW_EDIT_SPAWNER_ENTRANCE_TIME 3154
+#define IDC_MW_TEXTURE_LIST             3155
+#define IDC_MW_EDIT_PARTICLE_OBJECT_LIFE_TIME 3156
+#define IDC_MW_BUTTON_ADD_TEXTURE       3157
+#define IDC_MW_DELETE_TEXTURE           3158
+#define IDC_MW_STATIC_PARTICLE_X        3159
+#define IDC_MW_STATIC_PARTICLE_Y        3160
+#define IDC_MW_STATIC_PARTICLE_Z        3161
+#define IDC_MW_STATIC_VPOS              3162
+#define IDC_MW_STATIC_ADD_MIN_POS       3163
+#define IDC_MW_STATIC_ADD_MAX_POS       3164
+#define IDC_MW_STATIC_VROT              3165
+#define IDC_MW_STATIC_ADD_MIN_ROT       3166
+#define IDC_MW_STATIC_ADD_MAX_ROT       3167
+#define IDC_MW_STATIC_VSCALE            3168
+#define IDC_MW_STATIC_ADD_MIN_SCALE     3169
+#define IDC_MW_STATIC_ADD_MAX_SCALE     3170
+#define IDC_MW_STATIC_SAMPLE_LIFE_TIME  3171
+#define IDC_MW_STATIC_SAMPLE_VCOLOR     3172
+#define IDC_MW_STATIC_SAMPLE_ADD_MIN_COLOR 3173
+#define IDC_MW_STATIC_SAMPLE_ADD_MAX_COLOR 3174
+#define IDC_MW_GROUP_PARTICLE_SPAWNER   3175
+#define IDC_MW_STATIC_WAIT_SPAWNER_LIST 3176
+#define IDC_MW_STATIC_SPAWNER_VPOS      3177
+#define IDC_MW_STATIC_SPAWNER_VROT      3178
+#define IDC_MW_STATIC_SPAWNER_SPAWN_MIN_POS 3179
+#define IDC_MW_STATIC_SPAWNER_SPAWN_MAX_POS 3180
+#define IDC_MW_STATIC_SPAWNER_X         3181
+#define IDC_MW_STATIC_SPAWNER_Y         3182
+#define IDC_MW_STATIC_SPAWNER_Z         3183
+#define IDC_MW_STATIC_SPAWNER_LIFE_TIME 3184
+#define IDC_MW_STATIC_SPAWNER_ENTRANCE_TIME 3185
+#define IDC_MW_STATIC_GROUP_TEXTURE_SETTING 3186
+#define IDC_MW_STATIC_TEXTURE_LIST      3187
+#define IDC_MW_STATIC_VIEWER            3188
+#define IDC_MW_STATIC_PARTICLE_OBJECT_SETTING 3189
+#define IDC_MW_STATIC_PARTICLE_OBJECT_LIFE_TIME 3190
+#define IDC_MW_PICTURE_VIEWER           3191
+
+#pragma endregion 
+
+#pragma region 제영 
+
+#define IDC_JY_CAM_Static_Cam           4000
+#define IDC_JY_CAM_List_ActionCam       4001
+#define IDC_JY_CAM_List_ControlPointEyeList 4002
+#define IDC_JY_CAM_Static_Name          4003
+#define IDC_JY_CAM_Static_ControlPoint  4004
+#define IDC_JY_CAM_Edit_NameInsert      4005
+#define IDC_JY_CAM_Btn_AddCam           4006
+#define IDC_JY_CAM_Btn_DeleteCam        4007
+#define IDC_JY_CAM_Static_ControlName   4008
+#define IDC_JY_CAM_Edit_ControlName     4009
+#define IDC_JY_CAM_Btn_AddControl       4010
+#define IDC_JY_CAM_Btn_DeleteControl    4011
+#define IDC_JY_CAM_Combo_ActionType     4012
+#define IDC_JY_CAM_Static_PosX          4013
+#define IDC_JY_CAM_Static_PosY          4014
+#define IDC_JY_CAM_Static_PosZ          4015
+#define IDC_JY_CAM_Edit_PosX            4016
+#define IDC_JY_CAM_Edit_PosY            4017
+#define IDC_JY_CAM_Edit_PosZ            4018
+#define IDC_JY_CAM_Static_Type          4019
+#define IDC_JY_CAM_Btn_Save             4020
+#define IDC_JY_CAM_Btn_Load             4021
+#define IDC_JY_CAM_Btn_SceneLoad        4022
+#define IDC_JY_CAM_Btn_PosApply         4023
+#define IDC_JY_CAM_List_ControlPointAtList 4024
+#define IDC_JY_CAM_Static_EyeList       4025
+#define IDC_JY_CAM_Static_AtList        4026
+
+#pragma endregion 
+
+#pragma region 은호 
+
+#define IDD_EH_POPUP_LIGHTOPTION        5000
+#define IDC_EH_LightOptionView_LightPos_X 5001
+#define IDC_EH_LightOptionView_LightPos_Y 5002
+#define IDC_EH_LightOptionView_LightPos_Z 5003
+#define IDC_EH_LightOptionView_LightDir_X 5004
+#define IDC_EH_LightOptionView_LightDir_Y 5005
+#define IDC_EH_LightOptionView_LightDir_Z 5006
+#define IDC_EH_LightOptionView_Color_Diffuse 5007
+#define IDC_EH_LightOptionView_Color_Specular 5008
+#define IDC_EH_LightOptionView_Color_Ambient 5009
+#define IDC_EH_LightOptionView_TransformApply 5010
+#define IDC_EH_LightOptionView_D_R      5011
+#define IDC_EH_LightOptionView_D_G      5012
+#define IDC_EH_LightOptionView_D_B      5013
+#define IDC_EH_LightOptionView_D_A      5014
+#define IDC_EH_LightOptionView_S_R      5015
+#define IDC_EH_LightOptionView_S_G      5016
+#define IDC_EH_LightOptionView_S_B      5017
+#define IDC_EH_LightOptionView_S_A      5018
+#define IDC_EH_LightOptionView_TransformApply_ColorButton 5019
+#define IDC_EH_LightOptionView_TransformApply_ColorVector 5020
+#define IDC_EH_LightOptionView_LightDir_X2 5021
+#define IDC_EH_LightOptionView_LightDir_Y2 5022
+#define IDC_EH_LightOptionView_A_R      5023
+#define IDC_EH_LightOptionView_A_G      5024
+#define IDC_EH_LightOptionView_A_B      5025
+#define IDC_EH_LightOptionView_A_A      5026
+#define IDC_EH_EffectTool_LightView     5027
+#define IDC_EH_LightOptionView_Fog_R    5028
+#define IDC_EH_LightOptionView_Fog_G    5029
+#define IDC_EH_LightOptionView_Fog_B    5030
+#define IDC_EH_LightOptionView_Fog_A    5031
+#define IDC_EH_LightOptionView_Color_Fog 5032
+#define IDC_EH_LightOptionView_TransformApply_FogColorButton 5033
+#define IDC_EH_LightOptionView_TransformApply_FogColorVector 5034
+#define IDC_EH_LightOptionView_Close    5035
+
+#pragma endregion 
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        327
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1101
+#define _APS_NEXT_SYMED_VALUE           318
+#endif
+#endif

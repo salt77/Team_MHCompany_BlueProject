@@ -1,0 +1,145 @@
+#include "stdafx.h"
+#include "MFC_Project.h"
+#include "MenuForm.h"
+
+IMPLEMENT_DYNCREATE(CMenuForm, CFormView)
+
+
+CMenuForm::CMenuForm() : CFormView(IDD_MH_MENUFORM)
+{
+}
+
+CMenuForm::~CMenuForm()
+{
+	Tool_Release();
+}
+
+void CMenuForm::DoDataExchange(CDataExchange * pDX)
+{
+	DDX_Control(pDX, IDC_MH_MenuTab, m_tTabCtrl);
+}
+
+void CMenuForm::OnInitialUpdate()
+{
+	CFormView::OnInitialUpdate();
+
+	UpdateData(TRUE);
+
+	CRect rect;
+	m_tTabCtrl.GetWindowRect(rect);
+
+	m_pPopupTool_ObjectTree = new CPopupTool_ObjectTree;
+	m_pPopupTool_ObjectTree->Create(IDD_POPUPTOOL_OBJECTTREE);
+	m_pPopupTool_ObjectTree->ShowWindow(SW_SHOW);
+
+	_int iStack = 0;
+	m_tTabCtrl.InsertItem(iStack++, _T("World (미정)"));
+	m_tTabCtrl.InsertItem(iStack++, _T("Camera (제영)"));
+	m_tTabCtrl.InsertItem(iStack++, _T("Ui (민현)"));
+	m_tTabCtrl.InsertItem(iStack++, _T("Map (종호)"));
+	m_tTabCtrl.InsertItem(iStack++, _T("Particle (미정)"));
+
+	m_tTabCtrl.SetCurSel(0);
+
+	m_pTool_World = new CTool_World(m_pPopupTool_ObjectTree, 0);
+	m_pTool_World->Create(IDD_MH_TOOL_WORLD, &m_tTabCtrl);
+	m_pTool_World->MoveWindow(0, 20, rect.Width() - 5, rect.Height() - 5);
+	m_pTool_World->ShowWindow(SW_SHOW);
+
+	m_pTool_Camera = new CTool_Camera(m_pPopupTool_ObjectTree, 0);
+	m_pTool_Camera->Create(IDD_MH_TOOL_CAMERA, &m_tTabCtrl);
+	m_pTool_Camera->MoveWindow(0, 20, rect.Width() - 5, rect.Height() - 5);
+	m_pTool_Camera->ShowWindow(SW_HIDE);
+
+	m_pTool_Ui = new CTool_Ui(m_pPopupTool_ObjectTree, 0);
+	m_pTool_Ui->Create(IDD_MH_TOOL_UI, &m_tTabCtrl);
+	m_pTool_Ui->MoveWindow(0, 20, rect.Width() - 5, rect.Height() - 5);
+	m_pTool_Ui->ShowWindow(SW_HIDE);
+
+<<<<<<< HEAD
+	m_pTool_Map = new CTool_Map;
+	m_pTool_Map->Create(IDD_JH_TOOL_MAP, &m_tTabCtrl);
+=======
+	m_pTool_Map = new CTool_Map(m_pPopupTool_ObjectTree, 0);
+	m_pTool_Map->Create(IDD_MH_TOOL_MAP, &m_tTabCtrl);
+>>>>>>> Branch_Merge00
+	m_pTool_Map->MoveWindow(0, 20, rect.Width() - 5, rect.Height() - 5);
+	m_pTool_Map->ShowWindow(SW_HIDE);
+
+	ToolMenuState = eToolMenu::World;
+
+	// TODO: 여기에 특수화된 코드를 추가 및/또는 기본 클래스를 호출합니다.
+
+
+	UpdateData(FALSE);
+}
+BEGIN_MESSAGE_MAP(CMenuForm, CFormView)
+	ON_NOTIFY(TCN_SELCHANGE, IDC_MH_MenuTab, &CMenuForm::MH_On_Selchange_Menutab)
+END_MESSAGE_MAP()
+
+
+void CMenuForm::Tool_Update(NMHDR *pNMHDR)
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	if (IDC_MH_MenuTab == pNMHDR->idFrom)
+	{
+		int iSelect = m_tTabCtrl.GetCurSel();
+
+		m_pTool_World->ShowWindow(SW_HIDE);
+		m_pTool_Camera->ShowWindow(SW_HIDE);
+		m_pTool_Ui->ShowWindow(SW_HIDE);
+		m_pTool_Map->ShowWindow(SW_HIDE);
+
+		switch (iSelect)
+		{
+		case (int)eToolMenu::World:		{	m_pTool_World->ShowWindow(SW_SHOW);			break;	}
+		case (int)eToolMenu::Camera:	{	m_pTool_Camera->ShowWindow(SW_SHOW);		break;	}
+		case (int)eToolMenu::UI:		{	m_pTool_Ui->ShowWindow(SW_SHOW);			break;	}
+		case (int)eToolMenu::Map:		{	m_pTool_Map->ShowWindow(SW_SHOW);			break;	}
+		case (int)eToolMenu::Particle:	{												break;	}
+
+		default:						{	assert(FALSE);								break;	}
+		}
+	}
+}
+
+void CMenuForm::Tool_Release()
+{
+	if (m_pPopupTool_ObjectTree)
+	{
+		Safe_Delete(m_pPopupTool_ObjectTree);
+	}
+	if (m_pTool_World)
+	{
+		Safe_Delete(m_pTool_World);
+	}
+	if (m_pTool_Camera)
+	{
+		Safe_Delete(m_pTool_Camera);
+	}
+	if (m_pTool_Ui)
+	{
+		Safe_Delete(m_pTool_Ui);
+	}
+	if (m_pTool_Map)
+	{
+		Safe_Delete(m_pTool_Map);
+	}
+}
+
+_bool CMenuForm::Get_CurTab(eToolMenu eTab)
+{
+	int iSelect = m_tTabCtrl.GetCurSel();
+	if (iSelect == (_int)eTab)
+		return TRUE;
+
+	return FALSE;
+}
+
+void CMenuForm::MH_On_Selchange_Menutab(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	*pResult = 0;
+
+	Tool_Update(pNMHDR);
+}

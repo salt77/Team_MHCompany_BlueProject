@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98942F03-F55E-477B-A594-D9B9039CAEA4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;../include/core/inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x64;../include/core/lib/x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;../include/core/inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x64;../include/core/lib/x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Code;../../Base;../LibXL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Library</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;libxl.lib;fmodex64_vc.lib;lib_json.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+    <PostBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call CopyEngine.bat</Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Code;../../Base;../LibXL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Library</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;libxl.lib;fmodex64_vc.lib;lib_json.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call CopyEngine.bat</Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\ActionCam_Mgr.h" />
+    <ClInclude Include="..\Code\AttackObj.h" />
+    <ClInclude Include="..\Code\BackBoard.h" />
+    <ClInclude Include="..\Code\Binah.h" />
+    <ClInclude Include="..\Code\Binah_Environment.h" />
+    <ClInclude Include="..\Code\Binah_Halo.h" />
+    <ClInclude Include="..\Code\Binah_Tail.h" />
+    <ClInclude Include="..\Code\BossMonster.h" />
+    <ClInclude Include="..\Code\Boss_HpBar.h" />
+    <ClInclude Include="..\Code\Bullet_Bezier.h" />
+    <ClInclude Include="..\Code\Bullet_Dead.h" />
+    <ClInclude Include="..\Code\Bullet_Normal.h" />
+    <ClInclude Include="..\Code\Bullet_Normal_Monster.h" />
+    <ClInclude Include="..\Code\Bullet_Normal_Trail.h" />
+    <ClInclude Include="..\Code\Bullet_Parabola_Monster.h" />
+    <ClInclude Include="..\Code\Bullet_Run_Normal.h" />
+    <ClInclude Include="..\Code\CamControl_At.h" />
+    <ClInclude Include="..\Code\CamControl_Eye.h" />
+    <ClInclude Include="..\Code\Char_Zunko.h" />
+    <ClInclude Include="..\Code\Chesed_Circle_Bullet.h" />
+    <ClInclude Include="..\Code\Chesed_Direct_Laser.h" />
+    <ClInclude Include="..\Code\Chesed_Normal_Bullet.h" />
+    <ClInclude Include="..\Code\Chesed_Web_Laser.h" />
+    <ClInclude Include="..\Code\CircleGuide.h" />
+    <ClInclude Include="..\Code\LoadingManager.h" />
+    <ClInclude Include="..\Code\CombatTile.h" />
+    <ClInclude Include="..\Code\CrossRectBuffer.h" />
+    <ClInclude Include="..\Code\CutDonutGuide.h" />
+    <ClInclude Include="..\Code\DonutGuide.h" />
+    <ClInclude Include="..\Code\Drone_Bullet.h" />
+    <ClInclude Include="..\Code\FanGuide.h" />
+    <ClInclude Include="..\Code\Goliath_Decagram_Vulcan.h" />
+    <ClInclude Include="..\Code\Hieronymus.h" />
+    <ClInclude Include="..\Code\Hiero_G_Lantern.h" />
+    <ClInclude Include="..\Code\Hiero_R_Lantern.h" />
+    <ClInclude Include="..\Code\Hod.h" />
+    <ClInclude Include="..\Code\Hod_Cannon.h" />
+    <ClInclude Include="..\Code\Invite_Character.h" />
+    <ClInclude Include="..\Code\Kuro.h" />
+    <ClInclude Include="..\Code\KuroGround.h" />
+    <ClInclude Include="..\Code\Kuro_Car.h" />
+    <ClInclude Include="..\Code\Kuro_Cup.h" />
+    <ClInclude Include="..\Code\Kuro_Horse.h" />
+    <ClInclude Include="..\Code\Run_Chesed.h" />
+    <ClInclude Include="..\Code\Run_Drone.h" />
+    <ClInclude Include="..\Code\Run_Map.h" />
+    <ClInclude Include="..\Code\Mascot.h" />
+    <ClInclude Include="..\Code\QuatCamera.h" />
+    <ClInclude Include="..\Code\Run_Obstacle.h" />
+    <ClInclude Include="..\Code\Run_Player.h" />
+    <ClInclude Include="..\Code\Run_Unit.h" />
+    <ClInclude Include="..\Code\Shiro.h" />
+    <ClInclude Include="..\Code\Shiro_Ball.h" />
+    <ClInclude Include="..\Code\Shiro_Bomb_S.h" />
+    <ClInclude Include="..\Code\SkillGuideObject.h" />
+    <ClInclude Include="..\Code\SkillObject.h" />
+    <ClInclude Include="..\Code\SkyDome.h" />
+    <ClInclude Include="..\Code\Soldier_YohekiPink_MG.h" />
+    <ClInclude Include="..\Code\Soldier_YohekiPink_SMG.h" />
+    <ClInclude Include="..\Code\AniCtrl.h" />
+    <ClInclude Include="..\Code\BoxCat.h" />
+    <ClInclude Include="..\Code\Camera.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera_Cafe.h" />
+    <ClInclude Include="..\Code\Camera_TPS.h" />
+    <ClInclude Include="..\Code\Character.h" />
+    <ClInclude Include="..\Code\CharacterMgr.h" />
+    <ClInclude Include="..\Code\Char_Airi.h" />
+    <ClInclude Include="..\Code\Char_Akane.h" />
+    <ClInclude Include="..\Code\Char_Aris.h" />
+    <ClInclude Include="..\Code\Char_Aru.h" />
+    <ClInclude Include="..\Code\Char_Azusa.h" />
+    <ClInclude Include="..\Code\Char_Chinatsu.h" />
+    <ClInclude Include="..\Code\Char_Chise.h" />
+    <ClInclude Include="..\Code\Char_Eimi.h" />
+    <ClInclude Include="..\Code\Char_Hasumi.h" />
+    <ClInclude Include="..\Code\Char_Hibiki.h" />
+    <ClInclude Include="..\Code\Char_Hina.h" />
+    <ClInclude Include="..\Code\Char_Iori.h" />
+    <ClInclude Include="..\Code\Char_Izumi.h" />
+    <ClInclude Include="..\Code\Char_Juri.h" />
+    <ClInclude Include="..\Code\Char_Karin.h" />
+    <ClInclude Include="..\Code\Char_Kayoko.h" />
+    <ClInclude Include="..\Code\Char_Kirino.h" />
+    <ClInclude Include="..\Code\Char_Maki.h" />
+    <ClInclude Include="..\Code\Char_Mashiro.h" />
+    <ClInclude Include="..\Code\Char_Momoi.h" />
+    <ClInclude Include="..\Code\Char_Mutsuki.h" />
+    <ClInclude Include="..\Code\Char_Neru.h" />
+    <ClInclude Include="..\Code\Char_Nodoka.h" />
+    <ClInclude Include="..\Code\Char_Pina.h" />
+    <ClInclude Include="..\Code\Char_Serika.h" />
+    <ClInclude Include="..\Code\Char_Shun.h" />
+    <ClInclude Include="..\Code\Char_Sumire.h" />
+    <ClInclude Include="..\Code\Char_Suzumi.h" />
+    <ClInclude Include="..\Code\Char_Utaha.h" />
+    <ClInclude Include="..\Code\Char_Wakamo.h" />
+    <ClInclude Include="..\Code\Char_Yoshimi.h" />
+    <ClInclude Include="..\Code\Char_Yuzu.h" />
+    <ClInclude Include="..\Code\Collider.h" />
+    <ClInclude Include="..\Code\CollisionManager.h" />
+    <ClInclude Include="..\Code\Component.h" />
+    <ClInclude Include="..\Code\Cook_GenbuStore_AR.h" />
+    <ClInclude Include="..\Code\Cook_GenbuStore_MG.h" />
+    <ClInclude Include="..\Code\Cook_GenbuStore_SG.h" />
+    <ClInclude Include="..\Code\DataManager.h" />
+    <ClInclude Include="..\Code\DataParsing.h" />
+    <ClInclude Include="..\Code\Dialog_Manager.h" />
+    <ClInclude Include="..\Code\DMesh.h" />
+    <ClInclude Include="..\Code\Droid_HelmetBoss_SMG.h" />
+    <ClInclude Include="..\Code\Droid_Helmet_AR.h" />
+    <ClInclude Include="..\Code\Droid_Helmet_RL.h" />
+    <ClInclude Include="..\Code\Droid_Helmet_SMG.h" />
+    <ClInclude Include="..\Code\Droid_Yoheki_Shield.h" />
+    <ClInclude Include="..\Code\Drone_Decagram_Missile.h" />
+    <ClInclude Include="..\Code\Drone_Decagram_Vulcan.h" />
+    <ClInclude Include="..\Code\DynamicCamera.h" />
+    <ClInclude Include="..\Code\EffectObject.h" />
+    <ClInclude Include="..\Code\EMesh.h" />
+    <ClInclude Include="..\Code\EnemyTSS_Aparche_Blackmarket.h" />
+    <ClInclude Include="..\Code\EnemyTSS_Crusader_PMC.h" />
+    <ClInclude Include="..\Code\Engine_Define.h" />
+    <ClInclude Include="..\Code\Engine_Enum.h" />
+    <ClInclude Include="..\Code\Engine_Function.h" />
+    <ClInclude Include="..\Code\Engine_Macro.h" />
+    <ClInclude Include="..\Code\Engine_Struct.h" />
+    <ClInclude Include="..\Code\Engine_Typedef.h" />
+    <ClInclude Include="..\Code\Export_Function.h" />
+    <ClInclude Include="..\Code\FogManager.h" />
+    <ClInclude Include="..\Code\FontMgr.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\FoodTruck_GenbuStore_MG.h" />
+    <ClInclude Include="..\Code\Frame.h" />
+    <ClInclude Include="..\Code\FrameMgr.h" />
+    <ClInclude Include="..\Code\FX_Utaha_Original_Turret.h" />
+    <ClInclude Include="..\Code\GameManager.h" />
+    <ClInclude Include="..\Code\GameObject.h" />
+    <ClInclude Include="..\Code\GasMask_Arius_HMG.h" />
+    <ClInclude Include="..\Code\GasMask_Arius_SMG.h" />
+    <ClInclude Include="..\Code\GraphicDev.h" />
+    <ClInclude Include="..\Code\HeavyTank01_Helmet_Cannon.h" />
+    <ClInclude Include="..\Code\HeavyTank_Decagram_Cannon.h" />
+    <ClInclude Include="..\Code\HierarchyLoader.h" />
+    <ClInclude Include="..\Code\Kaitenranger_Black_HG.h" />
+    <ClInclude Include="..\Code\Kaitenranger_Green_HMG.h" />
+    <ClInclude Include="..\Code\Kaitenranger_Pink_RL.h" />
+    <ClInclude Include="..\Code\Kaitenranger_Red_AR.h" />
+    <ClInclude Include="..\Code\Kaitenranger_Yellow_SR.h" />
+    <ClInclude Include="..\Code\KeyManager.h" />
+    <ClInclude Include="..\Code\KumabotPapa_Slumpia_SG.h" />
+    <ClInclude Include="..\Code\Layer.h" />
+    <ClInclude Include="..\Code\Light.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightMgr.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightTank_Helmet_Vulcan.h" />
+    <ClInclude Include="..\Code\Line.h" />
+    <ClInclude Include="..\Code\Management.h" />
+    <ClInclude Include="..\Code\Obstacle_Cafe.h" />
+    <ClInclude Include="..\Code\Obstacle_Combat.h" />
+    <ClInclude Include="..\Code\Obstacle.h" />
+    <ClInclude Include="..\Code\Monster.h" />
+    <ClInclude Include="..\Code\MyFont.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\MyMath.h" />
+    <ClInclude Include="..\Code\ParticleObject.h" />
+    <ClInclude Include="..\Code\PrefabManager.h" />
+    <ClInclude Include="..\Code\ProtoMgr.h" />
+    <ClInclude Include="..\Code\RectBuffer.h" />
+    <ClInclude Include="..\Code\RectTest.h" />
+    <ClInclude Include="..\Code\Renderer.h" />
+    <ClInclude Include="..\Code\RenderTarget.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\RenderTargetMgr.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoyalGuard_RedWinterSergeant_AR.h" />
+    <ClInclude Include="..\Code\RoyalGuard_RedWinter_AR.h" />
+    <ClInclude Include="..\Code\RoyalGuard_RedWinter_GL.h" />
+    <ClInclude Include="..\Code\RoyalGuard_RedWinter_SMG.h" />
+    <ClInclude Include="..\Code\Scene.h" />
+    <ClInclude Include="..\Code\SchoolGirl01_SukebanSwim_SMG.h" />
+    <ClInclude Include="..\Code\SchoolGirl01_Sukeban_SMG.h" />
+    <ClInclude Include="..\Code\SchoolGirl02_SukebanSwim_SR.h" />
+    <ClInclude Include="..\Code\SchoolGirl02_Sukeban_SR.h" />
+    <ClInclude Include="..\Code\SchoolGirl03_SukebanSwim_MG.h" />
+    <ClInclude Include="..\Code\SchoolGirl03_Sukeban_HMG.h" />
+    <ClInclude Include="..\Code\SchoolGirlBoss02_SukebanSwim_MG.h" />
+    <ClInclude Include="..\Code\Shader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Code\Skill_Manager.h" />
+    <ClInclude Include="..\Code\Calculator.h" />
+    <ClInclude Include="..\Code\Soldier_Blackmarket_RL.h" />
+    <ClInclude Include="..\Code\Soldier_Fuuki_MG.h" />
+    <ClInclude Include="..\Code\Soldier_Helmet_AR.h" />
+    <ClInclude Include="..\Code\Soldier_Helmet_SG.h" />
+    <ClInclude Include="..\Code\Soldier_Helmet_SR.h" />
+    <ClInclude Include="..\Code\Soldier_Kaiserpmc_HG.h" />
+    <ClInclude Include="..\Code\Soldier_RedWinterYoheki_SG.h" />
+    <ClInclude Include="..\Code\Soldier_RedWinterYoheki_SR.h" />
+    <ClInclude Include="..\Code\Soldier_RWY_AR.h" />
+    <ClInclude Include="..\Code\Sound_Manager.h" />
+    <ClInclude Include="..\Code\SphereCollider.h" />
+    <ClInclude Include="..\Code\SMesh.h" />
+    <ClInclude Include="..\Code\SphereTex2.h" />
+    <ClInclude Include="..\Code\StageMap.h" />
+    <ClInclude Include="..\Code\StaticObject.h" />
+    <ClInclude Include="..\Code\StraightGuide.h" />
+    <ClInclude Include="..\Code\Sukeban_MG.h" />
+    <ClInclude Include="..\Code\Sukeban_SMG.h" />
+    <ClInclude Include="..\Code\Sukeban_SR.h" />
+    <ClInclude Include="..\Code\Sweeper_Decagram_Taser.h" />
+    <ClInclude Include="..\Code\Tanmak_Effect.h" />
+    <ClInclude Include="..\Code\TechSoldier_Decagram_AR.h" />
+    <ClInclude Include="..\Code\Terror_Droid_Mimesis_AR.h" />
+    <ClInclude Include="..\Code\Terror_Droid_Mimesis_RL.h" />
+    <ClInclude Include="..\Code\Terror_Droid_Mimesis_Shield.h" />
+    <ClInclude Include="..\Code\Terror_GasMask_Arius_GL.h" />
+    <ClInclude Include="..\Code\Terror_GasMask_Arius_HMG.h" />
+    <ClInclude Include="..\Code\Terror_GasMask_Arius_SMG.h" />
+    <ClInclude Include="..\Code\Texture.h" />
+    <ClInclude Include="..\Code\TileField.h" />
+    <ClInclude Include="..\Code\Timer.h" />
+    <ClInclude Include="..\Code\TimerMgr.h" />
+    <ClInclude Include="..\Code\TimeScale_Manager.h" />
+    <ClInclude Include="..\Code\Trail_Fix.h" />
+    <ClInclude Include="..\Code\Transform.h" />
+    <ClInclude Include="..\Code\UISkillObject.h" />
+    <ClInclude Include="..\Code\UI_Damage.h" />
+    <ClInclude Include="..\Code\UI_Manager.h" />
+    <ClInclude Include="..\Code\UI_Object.h" />
+    <ClInclude Include="..\Code\UI_Scroll_View.h" />
+    <ClInclude Include="..\Code\UI_Slider_Vert.h" />
+    <ClInclude Include="..\Code\Unit.h" />
+    <ClInclude Include="..\Code\Utility.h" />
+    <ClInclude Include="..\Code\VIBuffer.h" />
+    <ClInclude Include="..\Code\Wall512.h" />
+    <ClInclude Include="..\Code\Warning.h" />
+    <ClInclude Include="..\Code\Warning_Mgr.h" />
+    <ClInclude Include="..\Code\WorldCreator.h" />
+    <ClInclude Include="..\Code\WorldUI.h" />
+    <ClInclude Include="..\Code\XL_ParsingMgr.h" />
+    <ClInclude Include="..\Code\YukataHanya_StreetGhostes_SR.h" />
+    <ClInclude Include="..\Code\YukataHanya_StreetGhostes_SR_Cannon.h" />
+    <ClInclude Include="..\Code\YukataHanya_StreetGhostes_SR_Turret.h" />
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_MG.h" />
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_RL.h" />
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_SG.h" />
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_SG_Turret.h" />
+    <ClInclude Include="..\Code\Yustina_AR.h" />
+    <ClInclude Include="..\Code\Yustina_SMG.h" />
+    <ClInclude Include="..\Code\Yustina_SR.h" />
+    <ClInclude Include="Temp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\ActionCam_Mgr.cpp" />
+    <ClCompile Include="..\Code\AttackObj.cpp" />
+    <ClCompile Include="..\Code\BackBoard.cpp" />
+    <ClCompile Include="..\Code\Binah.cpp" />
+    <ClCompile Include="..\Code\Binah_Environment.cpp" />
+    <ClCompile Include="..\Code\Binah_Halo.cpp" />
+    <ClCompile Include="..\Code\Binah_Tail.cpp" />
+    <ClCompile Include="..\Code\BossMonster.cpp" />
+    <ClCompile Include="..\Code\Boss_HpBar.cpp" />
+    <ClCompile Include="..\Code\Bullet_Bezier.cpp" />
+    <ClCompile Include="..\Code\Bullet_Dead.cpp" />
+    <ClCompile Include="..\Code\Bullet_Normal.cpp" />
+    <ClCompile Include="..\Code\Bullet_Normal_Monster.cpp" />
+    <ClCompile Include="..\Code\Bullet_Normal_Trail.cpp" />
+    <ClCompile Include="..\Code\Bullet_Parabola_Monster.cpp" />
+    <ClCompile Include="..\Code\Bullet_Run_Normal.cpp" />
+    <ClCompile Include="..\Code\CamControl_At.cpp" />
+    <ClCompile Include="..\Code\CamControl_Eye.cpp" />
+    <ClCompile Include="..\Code\Char_Zunko.cpp" />
+    <ClCompile Include="..\Code\Chesed_Circle_Bullet.cpp" />
+    <ClCompile Include="..\Code\Chesed_Direct_Laser.cpp" />
+    <ClCompile Include="..\Code\Chesed_Normal_Bullet.cpp" />
+    <ClCompile Include="..\Code\Chesed_Web_Laser.cpp" />
+    <ClCompile Include="..\Code\CircleGuide.cpp" />
+    <ClCompile Include="..\Code\LoadingManager.cpp" />
+    <ClCompile Include="..\Code\CombatTile.cpp" />
+    <ClCompile Include="..\Code\CrossRectBuffer.cpp" />
+    <ClCompile Include="..\Code\CutDonutGuide.cpp" />
+    <ClCompile Include="..\Code\DonutGuide.cpp" />
+    <ClCompile Include="..\Code\Drone_Bullet.cpp" />
+    <ClCompile Include="..\Code\FanGuide.cpp" />
+    <ClCompile Include="..\Code\Goliath_Decagram_Vulcan.cpp" />
+    <ClCompile Include="..\Code\Hiero_G_Lantern.cpp" />
+    <ClCompile Include="..\Code\Hiero_R_Lantern.cpp" />
+    <ClCompile Include="..\Code\Hod.cpp" />
+    <ClCompile Include="..\Code\Hod_Cannon.cpp" />
+    <ClCompile Include="..\Code\Invite_Character.cpp" />
+    <ClCompile Include="..\Code\KuroGround.cpp" />
+    <ClCompile Include="..\Code\Kuro_Car.cpp" />
+    <ClCompile Include="..\Code\Kuro_Cup.cpp" />
+    <ClCompile Include="..\Code\Kuro_Horse.cpp" />
+    <ClCompile Include="..\Code\Run_Chesed.cpp" />
+    <ClCompile Include="..\Code\Run_Drone.cpp" />
+    <ClCompile Include="..\Code\Run_Obstacle.cpp" />
+    <ClCompile Include="..\Code\Run_Unit.cpp" />
+    <ClCompile Include="..\Code\SkillGuideObject.cpp" />
+    <ClCompile Include="..\Code\SkillObject.cpp" />
+    <ClCompile Include="..\Code\SkyDome.cpp" />
+    <ClCompile Include="..\Code\SphereTex2.cpp" />
+    <ClCompile Include="..\Code\StraightGuide.cpp" />
+    <ClCompile Include="..\Code\Tanmak_Effect.cpp" />
+    <ClCompile Include="..\Code\Trail_Fix.cpp" />
+    <ClCompile Include="..\Code\UISkillObject.cpp" />
+    <ClCompile Include="..\Code\Warning_Mgr.cpp" />
+    <ClCompile Include="..\Code\Hieronymus.cpp" />
+    <ClCompile Include="..\Code\Kuro.cpp" />
+    <ClCompile Include="..\Code\Run_Map.cpp" />
+    <ClCompile Include="..\Code\Mascot.cpp" />
+    <ClCompile Include="..\Code\QuatCamera.cpp" />
+    <ClCompile Include="..\Code\Run_Player.cpp" />
+    <ClCompile Include="..\Code\Shiro.cpp" />
+    <ClCompile Include="..\Code\Shiro_Ball.cpp" />
+    <ClCompile Include="..\Code\Shiro_Bomb_S.cpp" />
+    <ClCompile Include="..\Code\Soldier_YohekiPink_SMG.cpp" />
+    <ClCompile Include="..\Code\AniCtrl.cpp" />
+    <ClCompile Include="..\Code\BoxCat.cpp" />
+    <ClCompile Include="..\Code\Camera.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera_Cafe.cpp" />
+    <ClCompile Include="..\Code\Camera_TPS.cpp" />
+    <ClCompile Include="..\Code\Character.cpp" />
+    <ClCompile Include="..\Code\CharacterMgr.cpp" />
+    <ClCompile Include="..\Code\Char_Airi.cpp" />
+    <ClCompile Include="..\Code\Char_Akane.cpp" />
+    <ClCompile Include="..\Code\Char_Aris.cpp" />
+    <ClCompile Include="..\Code\Char_Aru.cpp" />
+    <ClCompile Include="..\Code\Char_Azusa.cpp" />
+    <ClCompile Include="..\Code\Char_Chinatsu.cpp" />
+    <ClCompile Include="..\Code\Char_Chise.cpp" />
+    <ClCompile Include="..\Code\Char_Eimi.cpp" />
+    <ClCompile Include="..\Code\Char_Hasumi.cpp" />
+    <ClCompile Include="..\Code\Char_Hibiki.cpp" />
+    <ClCompile Include="..\Code\Char_Hina.cpp" />
+    <ClCompile Include="..\Code\Char_Iori.cpp" />
+    <ClCompile Include="..\Code\Char_Izumi.cpp" />
+    <ClCompile Include="..\Code\Char_Juri.cpp" />
+    <ClCompile Include="..\Code\Char_Karin.cpp" />
+    <ClCompile Include="..\Code\Char_Kayoko.cpp" />
+    <ClCompile Include="..\Code\Char_Kirino.cpp" />
+    <ClCompile Include="..\Code\Char_Maki.cpp" />
+    <ClCompile Include="..\Code\Char_Mashiro.cpp" />
+    <ClCompile Include="..\Code\Char_Momoi.cpp" />
+    <ClCompile Include="..\Code\Char_Mutsuki.cpp" />
+    <ClCompile Include="..\Code\Char_Neru.cpp" />
+    <ClCompile Include="..\Code\Char_Nodoka.cpp" />
+    <ClCompile Include="..\Code\Char_Pina.cpp" />
+    <ClCompile Include="..\Code\Char_Serika.cpp" />
+    <ClCompile Include="..\Code\Char_Shun.cpp" />
+    <ClCompile Include="..\Code\Char_Sumire.cpp" />
+    <ClCompile Include="..\Code\Char_Suzumi.cpp" />
+    <ClCompile Include="..\Code\Char_Utaha.cpp" />
+    <ClCompile Include="..\Code\Char_Wakamo.cpp" />
+    <ClCompile Include="..\Code\Char_Yoshimi.cpp" />
+    <ClCompile Include="..\Code\Char_Yuzu.cpp" />
+    <ClCompile Include="..\Code\Collider.cpp" />
+    <ClCompile Include="..\Code\CollisionManager.cpp" />
+    <ClCompile Include="..\Code\Component.cpp" />
+    <ClCompile Include="..\Code\Cook_GenbuStore_AR.cpp" />
+    <ClCompile Include="..\Code\Cook_GenbuStore_MG.cpp" />
+    <ClCompile Include="..\Code\Cook_GenbuStore_SG.cpp" />
+    <ClCompile Include="..\Code\DataManager.cpp" />
+    <ClCompile Include="..\Code\DataParsing.cpp" />
+    <ClCompile Include="..\Code\Dialog_Manager.cpp" />
+    <ClCompile Include="..\Code\DMesh.cpp" />
+    <ClCompile Include="..\Code\Droid_HelmetBoss_SMG.cpp" />
+    <ClCompile Include="..\Code\Droid_Helmet_AR.cpp" />
+    <ClCompile Include="..\Code\Droid_Helmet_RL.cpp" />
+    <ClCompile Include="..\Code\Droid_Helmet_SMG.cpp" />
+    <ClCompile Include="..\Code\Droid_Yoheki_Shield.cpp" />
+    <ClCompile Include="..\Code\Drone_Decagram_Missile.cpp" />
+    <ClCompile Include="..\Code\Drone_Decagram_Vulcan.cpp" />
+    <ClCompile Include="..\Code\DynamicCamera.cpp" />
+    <ClCompile Include="..\Code\EffectObject.cpp" />
+    <ClCompile Include="..\Code\EMesh.cpp" />
+    <ClCompile Include="..\Code\EnemyTSS_Aparche_Blackmarket.cpp" />
+    <ClCompile Include="..\Code\EnemyTSS_Crusader_PMC.cpp" />
+    <ClCompile Include="..\Code\FogManager.cpp" />
+    <ClCompile Include="..\Code\FontMgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\FoodTruck_GenbuStore_MG.cpp" />
+    <ClCompile Include="..\Code\Frame.cpp" />
+    <ClCompile Include="..\Code\FrameMgr.cpp" />
+    <ClCompile Include="..\Code\FX_Utaha_Original_Turret.cpp" />
+    <ClCompile Include="..\Code\GameManager.cpp" />
+    <ClCompile Include="..\Code\GameObject.cpp" />
+    <ClCompile Include="..\Code\GasMask_Arius_HMG.cpp" />
+    <ClCompile Include="..\Code\GasMask_Arius_SMG.cpp" />
+    <ClCompile Include="..\Code\GraphicDev.cpp" />
+    <ClCompile Include="..\Code\HeavyTank01_Helmet_Cannon.cpp" />
+    <ClCompile Include="..\Code\HeavyTank_Decagram_Cannon.cpp" />
+    <ClCompile Include="..\Code\HierarchyLoader.cpp" />
+    <ClCompile Include="..\Code\Kaitenranger_Black_HG.cpp" />
+    <ClCompile Include="..\Code\Kaitenranger_Green_HMG.cpp" />
+    <ClCompile Include="..\Code\Kaitenranger_Pink_RL.cpp" />
+    <ClCompile Include="..\Code\Kaitenranger_Red_AR.cpp" />
+    <ClCompile Include="..\Code\Kaitenranger_Yellow_SR.cpp" />
+    <ClCompile Include="..\Code\KeyManager.cpp" />
+    <ClCompile Include="..\Code\KumabotPapa_Slumpia_SG.cpp" />
+    <ClCompile Include="..\Code\Layer.cpp" />
+    <ClCompile Include="..\Code\Light.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightMgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightTank_Helmet_Vulcan.cpp" />
+    <ClCompile Include="..\Code\Line.cpp" />
+    <ClCompile Include="..\Code\Management.cpp" />
+    <ClCompile Include="..\Code\Obstacle_Cafe.cpp" />
+    <ClCompile Include="..\Code\Obstacle_Combat.cpp" />
+    <ClCompile Include="..\Code\Obstacle.cpp" />
+    <ClCompile Include="..\Code\Monster.cpp" />
+    <ClCompile Include="..\Code\MyFont.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\MyMath.cpp" />
+    <ClCompile Include="..\Code\ParticleObject.cpp" />
+    <ClCompile Include="..\Code\PrefabManager.cpp" />
+    <ClCompile Include="..\Code\ProtoMgr.cpp" />
+    <ClCompile Include="..\Code\RectBuffer.cpp" />
+    <ClCompile Include="..\Code\RectTest.cpp" />
+    <ClCompile Include="..\Code\Renderer.cpp" />
+    <ClCompile Include="..\Code\RenderTarget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\RenderTargetMgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoyalGuard_RedWinterSergeant_AR.cpp" />
+    <ClCompile Include="..\Code\RoyalGuard_RedWinter_AR.cpp" />
+    <ClCompile Include="..\Code\RoyalGuard_RedWinter_GL.cpp" />
+    <ClCompile Include="..\Code\RoyalGuard_RedWinter_SMG.cpp" />
+    <ClCompile Include="..\Code\Scene.cpp" />
+    <ClCompile Include="..\Code\SchoolGirl01_SukebanSwim_SMG.cpp" />
+    <ClCompile Include="..\Code\SchoolGirl01_Sukeban_SMG.cpp" />
+    <ClCompile Include="..\Code\SchoolGirl02_SukebanSwim_SR.cpp" />
+    <ClCompile Include="..\Code\SchoolGirl02_Sukeban_SR.cpp" />
+    <ClCompile Include="..\Code\SchoolGirl03_SukebanSwim_MG.cpp" />
+    <ClCompile Include="..\Code\SchoolGirl03_Sukeban_HMG.cpp" />
+    <ClCompile Include="..\Code\SchoolGirlBoss02_SukebanSwim_MG.cpp" />
+    <ClCompile Include="..\Code\Shader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\Skill_Manager.cpp" />
+    <ClCompile Include="..\Code\Calculator.cpp" />
+    <ClCompile Include="..\Code\Soldier_Blackmarket_RL.cpp" />
+    <ClCompile Include="..\Code\Soldier_Fuuki_MG.cpp" />
+    <ClCompile Include="..\Code\Soldier_Helmet_AR.cpp" />
+    <ClCompile Include="..\Code\Soldier_Helmet_SG.cpp" />
+    <ClCompile Include="..\Code\Soldier_Helmet_SR.cpp" />
+    <ClCompile Include="..\Code\Soldier_Kaiserpmc_HG.cpp" />
+    <ClCompile Include="..\Code\Soldier_RedWinterYoheki_SG.cpp" />
+    <ClCompile Include="..\Code\Soldier_RedWinterYoheki_SR.cpp" />
+    <ClCompile Include="..\Code\Soldier_RWY_AR.cpp" />
+    <ClCompile Include="..\Code\Soldier_YohekiPink_MG.cpp" />
+    <ClCompile Include="..\Code\Sound_Manager.cpp" />
+    <ClCompile Include="..\Code\SphereCollider.cpp" />
+    <ClCompile Include="..\Code\SMesh.cpp" />
+    <ClCompile Include="..\Code\StageMap.cpp" />
+    <ClCompile Include="..\Code\StaticObject.cpp" />
+    <ClCompile Include="..\Code\Sukeban_MG.cpp" />
+    <ClCompile Include="..\Code\Sukeban_SMG.cpp" />
+    <ClCompile Include="..\Code\Sukeban_SR.cpp" />
+    <ClCompile Include="..\Code\Sweeper_Decagram_Taser.cpp" />
+    <ClCompile Include="..\Code\TechSoldier_Decagram_AR.cpp" />
+    <ClCompile Include="..\Code\Terror_Droid_Mimesis_AR.cpp" />
+    <ClCompile Include="..\Code\Terror_Droid_Mimesis_RL.cpp" />
+    <ClCompile Include="..\Code\Terror_Droid_Mimesis_Shield.cpp" />
+    <ClCompile Include="..\Code\Terror_GasMask_Arius_GL.cpp" />
+    <ClCompile Include="..\Code\Terror_GasMask_Arius_HMG.cpp" />
+    <ClCompile Include="..\Code\Terror_GasMask_Arius_SMG.cpp" />
+    <ClCompile Include="..\Code\Texture.cpp" />
+    <ClCompile Include="..\Code\TileField.cpp" />
+    <ClCompile Include="..\Code\Timer.cpp" />
+    <ClCompile Include="..\Code\TimerMgr.cpp" />
+    <ClCompile Include="..\Code\TimeScale_Manager.cpp" />
+    <ClCompile Include="..\Code\Transform.cpp" />
+    <ClCompile Include="..\Code\UI_Damage.cpp" />
+    <ClCompile Include="..\Code\UI_Manager.cpp" />
+    <ClCompile Include="..\Code\UI_Object.cpp" />
+    <ClCompile Include="..\Code\UI_Scroll_View.cpp" />
+    <ClCompile Include="..\Code\UI_Slider_Vert.cpp" />
+    <ClCompile Include="..\Code\Unit.cpp" />
+    <ClCompile Include="..\Code\Utility.cpp" />
+    <ClCompile Include="..\Code\VIBuffer.cpp" />
+    <ClCompile Include="..\Code\Wall512.cpp" />
+    <ClCompile Include="..\Code\Warning.cpp" />
+    <ClCompile Include="..\Code\WorldCreator.cpp" />
+    <ClCompile Include="..\Code\WorldUI.cpp" />
+    <ClCompile Include="..\Code\XL_ParsingMgr.cpp" />
+    <ClCompile Include="..\Code\YukataHanya_StreetGhostes_SR.cpp" />
+    <ClCompile Include="..\Code\YukataHanya_StreetGhostes_SR_Cannon.cpp" />
+    <ClCompile Include="..\Code\YukataHanya_StreetGhostes_SR_Turret.cpp" />
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_MG.cpp" />
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_RL.cpp" />
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_SG.cpp" />
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_SG_Turret.cpp" />
+    <ClCompile Include="..\Code\Yustina_AR.cpp" />
+    <ClCompile Include="..\Code\Yustina_SMG.cpp" />
+    <ClCompile Include="..\Code\Yustina_SR.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Shader_Blend.fx">
+      <FileType>Document</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Shader_Shade.fx">
+      <FileType>Document</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Shader_Effect.fx">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <FxCompile Include="..\Code\Shader_Base.fx" />
+    <FxCompile Include="..\Code\Shader_Blur.fx" />
+    <FxCompile Include="..\Code\Shader_Effect_Blend.fx" />
+    <FxCompile Include="..\Code\Shader_GodRay.fx" />
+    <FxCompile Include="..\Code\Shader_LightMgr.fx" />
+    <FxCompile Include="..\Code\Shader_PostProcess.fx" />
+    <FxCompile Include="..\Code\Shader_Show_Base.fx" />
+    <FxCompile Include="..\Code\Shader_Show_Blend.fx" />
+    <FxCompile Include="..\Code\Shader_Show_Shade.fx" />
+    <FxCompile Include="..\Code\Shader_Trail.fx" />
+    <FxCompile Include="..\Code\Shader_Ui.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\packages\com.playfab.xplatcppsdk.v141.3.59.211012\build\native\com.playfab.xplatcppsdk.v141.targets" Condition="Exists('..\..\packages\com.playfab.xplatcppsdk.v141.3.59.211012\build\native\com.playfab.xplatcppsdk.v141.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\com.playfab.xplatcppsdk.v141.3.59.211012\build\native\com.playfab.xplatcppsdk.v141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\com.playfab.xplatcppsdk.v141.3.59.211012\build\native\com.playfab.xplatcppsdk.v141.targets'))" />
+  </Target>
+</Project>

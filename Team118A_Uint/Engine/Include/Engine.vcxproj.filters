@@ -1,0 +1,2466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="00. System">
+      <UniqueIdentifier>{4869e060-cd74-470b-914b-7f5dad8adbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Management">
+      <UniqueIdentifier>{f080c03e-657d-4c7e-872c-939550342f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\00. GraphicDev">
+      <UniqueIdentifier>{8c2ecb72-e973-4a51-a8ff-98b15382b63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\01. Timer">
+      <UniqueIdentifier>{1e335d0c-ea6f-4e77-9a73-27e9b94f698a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\02. Frame">
+      <UniqueIdentifier>{b5a263c4-7bc4-4cb1-b626-376c8aa56240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\05. Line">
+      <UniqueIdentifier>{4def59f1-1a89-40bb-b7b5-5e8de8ba0ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Layer">
+      <UniqueIdentifier>{414747c9-c9da-4bef-a0a2-47b1196c6bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject">
+      <UniqueIdentifier>{fc87601f-70b7-4732-8aed-cc462df04c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component">
+      <UniqueIdentifier>{2a32dbec-c15c-48aa-8a08-3dde2b1aebc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Light">
+      <UniqueIdentifier>{c714259e-6bfa-4ff9-a9ea-68570438596c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. Shader">
+      <UniqueIdentifier>{19489e8a-398b-4545-9f79-ed682cc327d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers">
+      <UniqueIdentifier>{3bb262c4-f5b0-4c8c-82a7-ffd7aa23dd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\01. ProtoMgr">
+      <UniqueIdentifier>{ecfdc0a4-0537-440a-91ad-8f12e84b0b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\03. RenderTargetMgr">
+      <UniqueIdentifier>{e56266d7-359b-49ca-a996-5cbcde61712a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\04. LightMgr">
+      <UniqueIdentifier>{dfe2fec2-8cf8-4238-a5bd-14c68606e65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. Shader\Fx">
+      <UniqueIdentifier>{78eeaadb-73af-4675-82b2-0e0f45694a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\04. KeyManager">
+      <UniqueIdentifier>{91c139a9-f028-4ef5-bf43-86e126d3891f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\00. Transform">
+      <UniqueIdentifier>{f84ed1be-99bf-47d2-b7d0-5a678ebf7820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\04. Mesh">
+      <UniqueIdentifier>{0b221eb1-dba3-4cf3-9e17-3fafb6cda40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\05. Collider">
+      <UniqueIdentifier>{5399b65d-4717-4f8e-bf99-598afedfff76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\02. VIBuffer">
+      <UniqueIdentifier>{78cf7526-723a-4a47-b712-614ab1c01620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\03. Texture">
+      <UniqueIdentifier>{0276cb78-4ea2-460d-b574-e28b6bd08338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\01. Renderer">
+      <UniqueIdentifier>{51ff5904-cdab-4fca-b5f2-f04eac4598af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\02. VIBuffer\00.RectBuffer">
+      <UniqueIdentifier>{be029199-2a4c-4215-bcb5-df5c946bb76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\03. MyFont">
+      <UniqueIdentifier>{c1e588c3-b491-4ec2-880a-9a29b2a8a099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\03. MyFont\FontMgr">
+      <UniqueIdentifier>{2ec2b20a-8655-4c2e-8699-e8804f06d511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. Camera">
+      <UniqueIdentifier>{6696b494-779e-44f3-bdfe-a4139b5b2c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Utility">
+      <UniqueIdentifier>{df37e346-6a2f-45ed-bbec-0042540901ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Utility\00. Math">
+      <UniqueIdentifier>{5d54745f-b738-4f37-968c-5f2683850a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Utility\01. DataParsing">
+      <UniqueIdentifier>{1964149e-3289-4b18-b647-fdf97558eb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Header">
+      <UniqueIdentifier>{71fee13c-3498-4ae7-9b2c-ff9f3a22dcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\06. TimeScaleMgr">
+      <UniqueIdentifier>{bdddf555-0e12-4153-b1e5-325dc6c01005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\02. CollisionManager">
+      <UniqueIdentifier>{cd94237c-430d-4938-92c3-59c17746c7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\05. Collider\00.SphereCollider">
+      <UniqueIdentifier>{ac7e1c44-cd0b-4ca4-a34c-050d7cf0ec7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\04. Mesh\01. SMesh">
+      <UniqueIdentifier>{f41c78ff-fe45-409b-a316-8e50491c5196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\04. Mesh\02. DMesh">
+      <UniqueIdentifier>{1c21bc5d-efca-45f8-8672-a8061ab13796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\04. Mesh\02. DMesh\01. HierarchyLoader">
+      <UniqueIdentifier>{957b0a29-ecca-4657-a63a-f4c5de314b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\04. Mesh\02. DMesh\02. AniCtrl">
+      <UniqueIdentifier>{8783d4a7-c4bc-44bf-af47-8f780cd0c03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\02. VIBuffer\01. SphereBuffer">
+      <UniqueIdentifier>{d27b2e6b-1de7-42b2-971e-0f104c765b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\02. VIBuffer\02. RectTest">
+      <UniqueIdentifier>{3eff5261-c02b-4af9-8ae0-85f1e9aec0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. UIObject">
+      <UniqueIdentifier>{ebd08505-9968-411b-ba5a-d317b13216cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\07. XL_ParsingMgr">
+      <UniqueIdentifier>{b424d9ea-e1d3-4e7e-a267-efbc7d872ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\05. DataManager">
+      <UniqueIdentifier>{2083daf5-8afe-40e1-9f02-bf37b58011cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. UIObject\01. UI_Slider_Vert">
+      <UniqueIdentifier>{6fb65f4f-4318-49af-bf17-7e92f567c8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. UIObject\02. UI_Scroll_View">
+      <UniqueIdentifier>{c82b9f24-6d1d-4853-bac4-c7102b26de7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\06. FogManager">
+      <UniqueIdentifier>{c43882d8-7dde-41a2-87b3-97445d81e083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\07. GameManager">
+      <UniqueIdentifier>{f04f128a-420a-466a-a65d-d6910e39d85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{0ce01d37-9e79-4f03-8be0-31ff2fd6f014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{3556606d-2107-4cf8-be99-c5c293021b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\04. Mesh\03. EMesh">
+      <UniqueIdentifier>{bc3f989a-4601-4d7d-8b99-013718a68db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\08. Dialog_Manager">
+      <UniqueIdentifier>{dff77346-c237-4065-8f29-48cdf42749d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. UIObject\03. UI_Damage">
+      <UniqueIdentifier>{fabb3bc4-d83b-42c0-9704-6856372497cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Utility\03. Calculator">
+      <UniqueIdentifier>{a070160f-96f8-45fe-b2db-223783ca2cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\09. PrefabManager">
+      <UniqueIdentifier>{7c29f5ab-ad1a-4cdf-ae4f-8bf11b877b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\10. UIManager">
+      <UniqueIdentifier>{1bf3b40d-97f1-4e33-a17d-55bf5a2c39ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\11. SkillManager">
+      <UniqueIdentifier>{be0d336e-779c-454c-b031-ba3a300a50ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\12. Wall512">
+      <UniqueIdentifier>{c47e11e1-9f5f-4406-9596-f2f5a185f97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\13. CharacterMgr">
+      <UniqueIdentifier>{558fd29f-9105-4a54-b3b5-baad58d2f87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\08. SoundMgr">
+      <UniqueIdentifier>{499f3887-8d12-4b3e-8228-799b60aed045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr">
+      <UniqueIdentifier>{c45c078e-3e79-42f3-b1cc-bd315376aeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint">
+      <UniqueIdentifier>{17236599-9709-482f-a9c7-1fa9aed916b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\00. Cam_Control_Eye">
+      <UniqueIdentifier>{d833765a-3040-4f53-9073-ce6e4950c09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\01. Cam_Control_At">
+      <UniqueIdentifier>{06b0b771-c086-4cf1-829f-d8d9b7e1ad7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit">
+      <UniqueIdentifier>{65e0dbd3-31d4-4067-9a53-3468e5b464b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character">
+      <UniqueIdentifier>{c415cc3e-1837-4ec4-89f2-cf74838ee145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special">
+      <UniqueIdentifier>{b098fb7d-c728-409b-af05-c86d27f41c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\00. Chinatsu">
+      <UniqueIdentifier>{9754a1a6-699e-4606-be15-12e9eaebf3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\01. Hibiki">
+      <UniqueIdentifier>{e43a93d3-bf22-4987-8ddb-cb4357e44e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\02. Juri">
+      <UniqueIdentifier>{de797c08-dc1e-4618-8707-40d499376dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\03. Kayoko">
+      <UniqueIdentifier>{6bd3e058-6cbc-4654-8e32-db3565a81c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\04. Karin">
+      <UniqueIdentifier>{602ae508-6aaa-4e3f-b4c1-b4cca0747682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\05. Mashiro">
+      <UniqueIdentifier>{9bd833fd-facb-46bc-ab3c-ea2ea4da64de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\06. Airi">
+      <UniqueIdentifier>{49e58ce0-af22-485a-bba4-f5700d021b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\Yoshimi">
+      <UniqueIdentifier>{c1ae9f3b-b2ae-4b95-aa22-511d79e125f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\Utaha">
+      <UniqueIdentifier>{975a0227-e802-49a1-8b00-36d5ece70431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\Nodoka">
+      <UniqueIdentifier>{04462e1b-eca4-4132-b00b-580a8cdb23bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\SkillObject">
+      <UniqueIdentifier>{17dd279e-3824-479f-a642-9190f36b8c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\SkillObject\01. Turret">
+      <UniqueIdentifier>{43b27b52-cc69-4357-8314-0615bfd9b7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\SkillObject\01. Turret\00. FX_Utaha_Original_Turret">
+      <UniqueIdentifier>{cd2d7bac-a6e8-453a-9d42-b9255138938c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker">
+      <UniqueIdentifier>{59f825d2-d41e-49c7-a7a5-aa4153480085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\00. Momoi">
+      <UniqueIdentifier>{6577f28f-134c-44c9-abd6-67909ddbb772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\01. Azusa">
+      <UniqueIdentifier>{9eeed959-9a96-4148-9239-2466143c76f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\03. Chise">
+      <UniqueIdentifier>{14b81a7e-8340-4240-8345-44197bb9f94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\05. Hasumi">
+      <UniqueIdentifier>{9bbd6263-e44b-44d5-97ba-1024852d77e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\06. Hina">
+      <UniqueIdentifier>{a4c290e1-4b79-4572-af73-ac4c96ee7487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\07. Iori">
+      <UniqueIdentifier>{e4de26d2-ba01-42f4-b63c-dbaed3e042c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\08. Izumi">
+      <UniqueIdentifier>{857c11b7-1894-401c-aaa6-2536bc860181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\09. Kirino">
+      <UniqueIdentifier>{d2ad6457-6edc-4409-88a3-de352686693e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\10. Serika">
+      <UniqueIdentifier>{f74e93fd-60b3-43d6-926d-d812c8b398f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\11. Akane">
+      <UniqueIdentifier>{67453d37-fa71-4321-8666-24d77d823dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\54. Mutsuki">
+      <UniqueIdentifier>{31dd5080-c3ae-4439-9d75-d96cfead64f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\55. Maki">
+      <UniqueIdentifier>{d35d0fa4-cc0a-4257-a719-469d5ffa4849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\57. Neru">
+      <UniqueIdentifier>{0dca528a-785e-41f6-8971-84066c9481e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\58. Aru">
+      <UniqueIdentifier>{a5ae41f7-e298-4011-9313-7bc95628d9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\59. Aris">
+      <UniqueIdentifier>{c990a68a-e977-40fd-bccc-d9ec23472e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Pina">
+      <UniqueIdentifier>{fd065ffc-8f2c-4dee-9c08-66ae1e4de50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Sumire">
+      <UniqueIdentifier>{038612ad-5a33-4bdf-a3f1-5aebedc7fdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Suzumi">
+      <UniqueIdentifier>{11135fe1-b1c2-4b31-b854-29b06b15cb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Wakamo">
+      <UniqueIdentifier>{502a9bb7-6b72-4455-9f91-de5107e304ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Yuzu">
+      <UniqueIdentifier>{cda389b7-43bf-49d5-9d2c-c477949a7e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster">
+      <UniqueIdentifier>{5f010e3f-cf62-4288-9800-2d23095166fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss">
+      <UniqueIdentifier>{5f0a3022-9bc2-46fc-a07f-8a7dfc84a95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\00. Shiro">
+      <UniqueIdentifier>{2c9babb4-fb3c-45ce-a94b-f41e733009e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\01. Kuro">
+      <UniqueIdentifier>{cdf054bf-a434-4e57-8b6e-ae9e9edd59a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus">
+      <UniqueIdentifier>{c365bee4-3c0c-46a3-a82b-87e237a57b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus\Green_Lantern">
+      <UniqueIdentifier>{92982e94-067c-41c9-ae78-7412605276aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus\Red_Lantern">
+      <UniqueIdentifier>{0f1315dd-31c1-4699-a32d-3a6421ab8506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\13. Boss_UI">
+      <UniqueIdentifier>{651a6fad-ba59-431d-b886-10d1af919b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\13. Boss_UI\00. Boss_HpBar">
+      <UniqueIdentifier>{2806bdea-b8b7-4788-9458-2c346f8e50ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 Fix완료">
+      <UniqueIdentifier>{b6992f04-ab29-4b9c-b75f-30873ca2a1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29">
+      <UniqueIdentifier>{e956eff7-fafb-4698-b73d-64c3c6f93e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban">
+      <UniqueIdentifier>{125fdb93-595d-46dd-b658-1a1d2c8ddff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_SMG">
+      <UniqueIdentifier>{dec3524c-0175-4502-8a7c-eb74bf5afd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_SR">
+      <UniqueIdentifier>{d9d928ce-884d-4e63-87c9-b0103c99d823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_MG">
+      <UniqueIdentifier>{951c0c6d-7bd1-4b20-bbe6-88b87a317cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\02. Droid_Yoheki">
+      <UniqueIdentifier>{2315403a-45df-4d16-897a-bd533ea9600d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\02. Droid_Yoheki\00. Droid_Yoheki_Shield">
+      <UniqueIdentifier>{ee973219-d1f7-485d-a142-b9ec7e90465c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone">
+      <UniqueIdentifier>{dcff536a-c1b0-470b-9ae8-81311f3b40a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone\00. Drone_Decagram_Missile">
+      <UniqueIdentifier>{473eda8e-3417-40b5-8caa-2f49edd4cd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone\01. Drone_Decagram_Vulcan">
+      <UniqueIdentifier>{0e02f2f9-8cce-4751-9bd5-2bf41c22d626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror">
+      <UniqueIdentifier>{441c4eee-1c96-4b19-b53b-26a7daa2a5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_RL">
+      <UniqueIdentifier>{4bc31d81-661e-4a68-b172-f51d1747b0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_AR">
+      <UniqueIdentifier>{86fa5d4e-aa90-44d5-98ea-86988566a615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_Shield">
+      <UniqueIdentifier>{f4058304-63f9-4ccc-ade6-1a0d06c6d1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_HMG">
+      <UniqueIdentifier>{340f12c4-d543-4051-87ab-5932917ebf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_GL">
+      <UniqueIdentifier>{085f688a-ca50-4e2a-a3f0-ad76a8a01454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_SMG">
+      <UniqueIdentifier>{6aa9be14-67c3-42b6-b307-d9337a91f80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS">
+      <UniqueIdentifier>{69fe287c-467b-4401-bdc5-a89ebba0aa43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS\00. EnemyTSS_Aparche_Blackmarket">
+      <UniqueIdentifier>{0233b4a6-93c6-42b2-8677-b2e990f24bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS\01. EnemyTSS_Crusader_PMC">
+      <UniqueIdentifier>{ad1449d4-2029-45d8-a9a7-5b5bea151d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata">
+      <UniqueIdentifier>{60fe3227-520a-4fb6-894c-e751e658fb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR_Turret">
+      <UniqueIdentifier>{99f8225e-3985-4a71-94b8-3dd01d54a0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_MG">
+      <UniqueIdentifier>{86a23b04-2322-4b46-8618-7230ea0ca283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_RL">
+      <UniqueIdentifier>{66413368-164b-4f0b-8f1e-0b27e100d941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_SG">
+      <UniqueIdentifier>{ad773f15-d979-480e-a8be-d0ab7b43415c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_SG_Turret">
+      <UniqueIdentifier>{c0208a61-b190-4b11-8b08-aadacbace10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR">
+      <UniqueIdentifier>{438ffc7c-4acd-4439-be93-786a4a5dfc88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR_Cannon">
+      <UniqueIdentifier>{8a8a5755-d16c-44eb-8875-4ba0768caa83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. GenbuStore">
+      <UniqueIdentifier>{15a4c454-9b8a-43d1-a8f5-a26aa7a79d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. GenbuStore\00. FoodTruck_GenbuStore_MG">
+      <UniqueIdentifier>{9f879967-2e1d-4618-8974-e48d3c63acbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina">
+      <UniqueIdentifier>{70441cca-f1f6-41a9-a3cb-f62d07654e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_AR">
+      <UniqueIdentifier>{cfcd5e1e-e3d3-4611-9a97-7226c1442d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_SMG">
+      <UniqueIdentifier>{e445caab-0fa0-49aa-a57d-54199ac8fb9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_SR">
+      <UniqueIdentifier>{e42ef1b8-08ee-4171-a957-a8aef64f0c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\06. TechSoldier">
+      <UniqueIdentifier>{cb7a3d4a-edb6-4952-a03a-3748db0480a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask">
+      <UniqueIdentifier>{2107f490-2759-4db1-ad10-a9bbdb3a77b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask\00. GasMask_Arius_HMG">
+      <UniqueIdentifier>{5aafe712-3722-47a5-8b27-688cf3c3db2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask\01. GasMask_Arius_SMG">
+      <UniqueIdentifier>{bc45b260-06ab-4256-b25f-c96f81bbe6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Sweeper_Decagram_Taser">
+      <UniqueIdentifier>{c65afcac-255c-43fc-84e1-9ffd2af81124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank">
+      <UniqueIdentifier>{4c98b95d-a9b8-4db6-9af2-05e66931ead7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\00. HeavyTank_Decagram_Cannon">
+      <UniqueIdentifier>{c58e3c72-5c59-4219-acbf-bf1a33baca87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\01. HeavyTank01_Helmet_Cannon">
+      <UniqueIdentifier>{a5d91ab7-2812-4e96-9897-14d1cbce86dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\02. LightTank_Helmet_Vulcan">
+      <UniqueIdentifier>{2f19f1eb-2b7e-47ed-8b8c-b82a16c59feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger">
+      <UniqueIdentifier>{cdbd1092-edea-4499-8f88-df9c6ea214e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\00. Kaitenranger_Black_HG">
+      <UniqueIdentifier>{b4797c41-43c9-4e17-a3d5-9b9d8347d2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\01. Kaitenranger_Green_HMG">
+      <UniqueIdentifier>{b02502d2-68ea-493b-a80a-4449e1b143c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\02. Kaitenranger_Pink_RL">
+      <UniqueIdentifier>{25f057cc-2ce6-4b3c-bdb4-1e55af1d7fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\03. Kaitenranger_Red_AR">
+      <UniqueIdentifier>{487f1473-8d28-41af-af3e-858a84c176d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\04. Kaitenranger_Yellow_SR">
+      <UniqueIdentifier>{3c991250-765a-4cd0-8874-321f7b1f52aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\10. Slumpia">
+      <UniqueIdentifier>{9488a541-f20f-4bc9-800d-470d75d4f703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\10. Slumpia\KumabotPapa_Slumpia_SG">
+      <UniqueIdentifier>{89102ac0-84a1-42e5-bbef-6fca8f2b05b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard">
+      <UniqueIdentifier>{dfb3f1e3-560e-4ccb-aeb9-4ff43b9d8a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_AR">
+      <UniqueIdentifier>{f696ce01-f48e-4a57-8f50-8078565a8f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_GL">
+      <UniqueIdentifier>{a5bc7d3e-21f0-400d-bdd6-ccf585285d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_SMG">
+      <UniqueIdentifier>{305ff98b-9bc7-4f64-8d28-5af6094a2066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinterSergeant_AR">
+      <UniqueIdentifier>{597f2b35-8b63-4ad4-b5a5-347c73d8eb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl">
+      <UniqueIdentifier>{ca6e0185-44fe-49ef-9852-23d917ff45d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl01_Sukeban_SMG">
+      <UniqueIdentifier>{28d52cce-d53d-4aed-9579-7bbae05d714d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl01_SukebanSwim_SMG">
+      <UniqueIdentifier>{80914b9a-f272-4140-9d14-91b10dcd89de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl02_Sukeban_SR">
+      <UniqueIdentifier>{e238feb2-ef75-420a-a3e0-024741b365b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl02_SukebanSwim_SR">
+      <UniqueIdentifier>{64f242b3-482c-464f-a698-3f3cc2338493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl03_Sukeban_HMG">
+      <UniqueIdentifier>{57dc2aae-9bd2-44c8-bcc8-43fe01b9f422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl03_SukebanSwim_MG">
+      <UniqueIdentifier>{ce702fd8-d2f9-4c27-aff4-bd4cf0210de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirlBoss02_SukebanSwim_MG">
+      <UniqueIdentifier>{440cc92f-be15-44d2-b53a-abc12ba8aee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider">
+      <UniqueIdentifier>{dfb5dbfb-3922-4021-b262-c5550121a4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Blackmarket_RL">
+      <UniqueIdentifier>{53af75b2-f793-498f-9049-86bc83f821fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Fuuki_MG">
+      <UniqueIdentifier>{7b454608-72fd-43c4-aadc-9e9396495c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_AR">
+      <UniqueIdentifier>{fd960727-76c5-43be-a374-1a00fde09ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_SG">
+      <UniqueIdentifier>{27b3f862-7eb0-42ab-8d46-be60be55ab0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_SR">
+      <UniqueIdentifier>{10b7407e-d4b2-4a84-9b62-7cf756027b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Kaiserpmc_HG">
+      <UniqueIdentifier>{5db409ef-7be3-4b96-9258-7bc4b1b77367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RedWinterYoheki_SG">
+      <UniqueIdentifier>{1c816067-1141-4784-8479-a22cf9a80ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RedWinterYoheki_SR">
+      <UniqueIdentifier>{8e1df3c2-b448-4102-afc7-6cf7efdc8446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RWY_AR">
+      <UniqueIdentifier>{42d25ef0-902b-49fa-9f7e-46d4f757e353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_YohekiPink_MG">
+      <UniqueIdentifier>{edc706d8-c89c-407f-ba33-b9cac411edb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_YohekiPink_SMG">
+      <UniqueIdentifier>{7929fb76-bb35-4847-ab95-64f29321dd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\BoxCat">
+      <UniqueIdentifier>{b441af2a-8454-490f-8b70-a6cfea27b708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore">
+      <UniqueIdentifier>{2dc9da91-d8c2-47d8-a032-7ae8fcc92d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\AR">
+      <UniqueIdentifier>{6002f366-5857-4c23-a5ca-2b766f1045a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\MG">
+      <UniqueIdentifier>{6f2b6af7-1254-4d7c-8bf4-be4fdb10354c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\SG">
+      <UniqueIdentifier>{8a055f08-aff9-4941-ab34-7d053409831f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet">
+      <UniqueIdentifier>{bb55b587-4d04-4dec-a885-cb2862526ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\Boss">
+      <UniqueIdentifier>{96613a38-9d8e-48f2-828d-e5251d7b2a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\AR">
+      <UniqueIdentifier>{ea9009ee-8057-48d4-8ade-4a2a6ddc017a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\RL">
+      <UniqueIdentifier>{aa5f26fe-8100-46bf-877f-38262dff36eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\SMG">
+      <UniqueIdentifier>{f39958b9-b273-48e2-9d61-a74cc2b48206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj">
+      <UniqueIdentifier>{455360c9-afeb-4702-bc25-a3946127741a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster">
+      <UniqueIdentifier>{4569f045-c6fb-447f-bae8-5b6edda9dbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\00. Shiro">
+      <UniqueIdentifier>{50fee84f-8670-4a08-aa89-f4ecd4c4029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\00. Shiro\Shiro_Bomb_S">
+      <UniqueIdentifier>{fd674662-b622-44db-a484-f528e6bb9fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\00. Shiro\Shiro_Ball">
+      <UniqueIdentifier>{c26bb016-b32a-4434-8b9f-63845890adde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\00. Player">
+      <UniqueIdentifier>{a61171f0-4dc9-4185-a417-23f730ab201b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\00. Player\Bullet_Normal">
+      <UniqueIdentifier>{b0d2428b-88cb-436d-af3b-d0b0c2cb0c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\00. Player\Bullet_Bezier">
+      <UniqueIdentifier>{6b34100c-e7b7-43fc-ba74-cfbf7a0fe694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\00. Player\Bullet_Normal_Trail">
+      <UniqueIdentifier>{b845170f-5f2c-423e-a359-2ec3f207089b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects">
+      <UniqueIdentifier>{e5ec4842-9554-4872-9d11-f62f2883f5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. World관련">
+      <UniqueIdentifier>{63367954-7fc7-4051-a9b1-4cf0719c910f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\01. ParticleObject">
+      <UniqueIdentifier>{8eba0a2b-4c79-41e9-9669-89000ce0dc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\02. EffectObject">
+      <UniqueIdentifier>{4ef1189e-bcce-44a4-9b46-309640ee5a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\03. Warning">
+      <UniqueIdentifier>{e38254df-925c-4cb4-951a-b796a2e7774e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\03. Warning\Warning_Mgr">
+      <UniqueIdentifier>{5853eae5-f82f-4df4-b059-72f9986fc70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\04. Trail">
+      <UniqueIdentifier>{a66a07e6-276d-4e1e-8d03-a237c6dbac24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. World관련\01. WorldCreator">
+      <UniqueIdentifier>{9d626848-e30a-47b3-b335-0515e2dd326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. World관련\02. StageMap">
+      <UniqueIdentifier>{9721cc5a-0244-47be-9589-8708263a7e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. World관련\03. Obstacle">
+      <UniqueIdentifier>{cc4f9cac-faa2-407a-be9b-3b0f4cff2a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. World관련\03. Obstacle\Combat_Obstacle">
+      <UniqueIdentifier>{f9aa8066-448d-400f-ac75-18fd4a000c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. World관련\03. Obstacle\Cafe_Obstacle">
+      <UniqueIdentifier>{cd1252ff-3a45-4ac3-8bfb-51b1e533345c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. Camera\01. DynamicCamera">
+      <UniqueIdentifier>{f682f65d-fffa-44fc-9994-fb7b649915f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. Camera\02. TPSCamera">
+      <UniqueIdentifier>{643810e6-cdca-4906-834f-e122fb1a02e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. Camera\03. CafeCamera">
+      <UniqueIdentifier>{f4099ebe-a056-4cb5-ae92-4ace6517de7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. Camera\04. QuatCamera">
+      <UniqueIdentifier>{6b315bcf-4f44-488b-a072-36c3fbf454e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField">
+      <UniqueIdentifier>{51b9198d-9f92-486d-946b-19a13a8eef0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\10. Mascot">
+      <UniqueIdentifier>{7a94d835-b943-4c77-a3d4-81c74452564c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\12. BackBoard">
+      <UniqueIdentifier>{d378e7f2-9e65-423b-8e13-449be3f9e9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\14. WorldUI">
+      <UniqueIdentifier>{7c5519f2-1869-4fef-ae27-e2487b3e6d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\15. StaticObject">
+      <UniqueIdentifier>{f9ed237c-5f74-4e01-9b67-56627c2f129a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\09. CombatTile">
+      <UniqueIdentifier>{b3cad80f-92c5-430c-a9e9-596271fd3b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\11. TileFieldObj">
+      <UniqueIdentifier>{2c9e5364-1374-4e68-a2f7-69077c0584e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\02. VIBuffer\03.CrossRectBuffer">
+      <UniqueIdentifier>{11064332-9af2-4f19-9e79-98cc35d9ba6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\00. Player\Bullet_Run_Normal">
+      <UniqueIdentifier>{d5c042c1-0ab6-4c7f-8e83-8039ce461ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed">
+      <UniqueIdentifier>{5086406b-f6fe-423f-9a5e-3fe24063b571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Normal_Bullet">
+      <UniqueIdentifier>{54df8b5a-ebda-40a3-bcf9-3d876088b8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\05. SkillObject">
+      <UniqueIdentifier>{0684efc4-6388-4425-9f49-cb3e313cb40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\09. Cafe">
+      <UniqueIdentifier>{d3112003-e8d6-43da-b097-c6fafc22dc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character">
+      <UniqueIdentifier>{c415cc3e-1837-4ec4-89f2-cf74838ee145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special">
+      <UniqueIdentifier>{b098fb7d-c728-409b-af05-c86d27f41c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\00. Chinatsu">
+      <UniqueIdentifier>{9754a1a6-699e-4606-be15-12e9eaebf3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\01. Hibiki">
+      <UniqueIdentifier>{e43a93d3-bf22-4987-8ddb-cb4357e44e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\02. Juri">
+      <UniqueIdentifier>{de797c08-dc1e-4618-8707-40d499376dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\03. Kayoko">
+      <UniqueIdentifier>{6bd3e058-6cbc-4654-8e32-db3565a81c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\04. Karin">
+      <UniqueIdentifier>{602ae508-6aaa-4e3f-b4c1-b4cca0747682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\05. Mashiro">
+      <UniqueIdentifier>{9bd833fd-facb-46bc-ab3c-ea2ea4da64de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\06. Airi">
+      <UniqueIdentifier>{49e58ce0-af22-485a-bba4-f5700d021b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\Yoshimi">
+      <UniqueIdentifier>{c1ae9f3b-b2ae-4b95-aa22-511d79e125f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\Utaha">
+      <UniqueIdentifier>{975a0227-e802-49a1-8b00-36d5ece70431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Special\Nodoka">
+      <UniqueIdentifier>{04462e1b-eca4-4132-b00b-580a8cdb23bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\SkillObject">
+      <UniqueIdentifier>{17dd279e-3824-479f-a642-9190f36b8c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\SkillObject\01. Turret">
+      <UniqueIdentifier>{43b27b52-cc69-4357-8314-0615bfd9b7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\SkillObject\01. Turret\00. FX_Utaha_Original_Turret">
+      <UniqueIdentifier>{cd2d7bac-a6e8-453a-9d42-b9255138938c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker">
+      <UniqueIdentifier>{59f825d2-d41e-49c7-a7a5-aa4153480085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\00. Momoi">
+      <UniqueIdentifier>{6577f28f-134c-44c9-abd6-67909ddbb772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\01. Azusa">
+      <UniqueIdentifier>{9eeed959-9a96-4148-9239-2466143c76f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\02. Cherino">
+      <UniqueIdentifier>{8b23eece-5307-451e-a3cb-f7a8189d28a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\03. Chise">
+      <UniqueIdentifier>{14b81a7e-8340-4240-8345-44197bb9f94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\04. Eimi">
+      <UniqueIdentifier>{8bcfd1bb-2c0f-41eb-bd86-620ce68a261e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\05. Hasumi">
+      <UniqueIdentifier>{9bbd6263-e44b-44d5-97ba-1024852d77e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\06. Hina">
+      <UniqueIdentifier>{a4c290e1-4b79-4572-af73-ac4c96ee7487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\07. Iori">
+      <UniqueIdentifier>{e4de26d2-ba01-42f4-b63c-dbaed3e042c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\08. Izumi">
+      <UniqueIdentifier>{857c11b7-1894-401c-aaa6-2536bc860181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\09. Kirino">
+      <UniqueIdentifier>{d2ad6457-6edc-4409-88a3-de352686693e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\10. Serika">
+      <UniqueIdentifier>{f74e93fd-60b3-43d6-926d-d812c8b398f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\11. Akane">
+      <UniqueIdentifier>{67453d37-fa71-4321-8666-24d77d823dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\54. Mutsuki">
+      <UniqueIdentifier>{31dd5080-c3ae-4439-9d75-d96cfead64f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\55. Maki">
+      <UniqueIdentifier>{d35d0fa4-cc0a-4257-a719-469d5ffa4849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\57. Neru">
+      <UniqueIdentifier>{0dca528a-785e-41f6-8971-84066c9481e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\58. Aru">
+      <UniqueIdentifier>{a5ae41f7-e298-4011-9313-7bc95628d9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\59. Aris">
+      <UniqueIdentifier>{c990a68a-e977-40fd-bccc-d9ec23472e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Pina">
+      <UniqueIdentifier>{fd065ffc-8f2c-4dee-9c08-66ae1e4de50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Sumire">
+      <UniqueIdentifier>{038612ad-5a33-4bdf-a3f1-5aebedc7fdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Suzumi">
+      <UniqueIdentifier>{11135fe1-b1c2-4b31-b854-29b06b15cb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Wakamo">
+      <UniqueIdentifier>{502a9bb7-6b72-4455-9f91-de5107e304ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\Yuzu">
+      <UniqueIdentifier>{cda389b7-43bf-49d5-9d2c-c477949a7e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\56. Shun">
+      <UniqueIdentifier>{e2f05e8b-df3a-4d26-945d-c0602b9c3d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\10. RenderTarget">
+      <UniqueIdentifier>{008cebdd-49d1-403b-9ccf-4cf82e387ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\00. Character\Striker\60. Zunko">
+      <UniqueIdentifier>{54ca67a4-adb5-4221-af29-e74a031332ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Circle_Bullet">
+      <UniqueIdentifier>{9a74d438-5613-49d0-8dfa-f4e9b0a9e0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Direct_Laser">
+      <UniqueIdentifier>{29aaa91f-b26a-461e-aa28-8edcc46e1c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah">
+      <UniqueIdentifier>{c955de16-1598-4e54-8417-678980f89546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Drone_Bullet">
+      <UniqueIdentifier>{ab00ac4b-dea1-4524-a74e-5e9aef323ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\06. SkillGuideObject">
+      <UniqueIdentifier>{44023a55-46d5-422e-80ec-7151f6a8c109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\06. SkillGuideObject\03. CutDonut">
+      <UniqueIdentifier>{4ac4fb15-c158-4201-9c34-bbf6011bb70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\06. SkillGuideObject\02. Donut">
+      <UniqueIdentifier>{05e589c5-f15b-47b5-8410-736d0908483b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\06. SkillGuideObject\01. Fan">
+      <UniqueIdentifier>{2dc1c45c-5d82-45de-8490-b0754089569a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\06. SkillGuideObject\00. Straight">
+      <UniqueIdentifier>{d74078c3-ad17-4b01-a58f-67f6768469df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\06. SkillGuideObject\04. Circle">
+      <UniqueIdentifier>{f78e0efe-b08f-4276-90e2-ef15b0ef989a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Web_Laser">
+      <UniqueIdentifier>{885bff14-a665-494d-b87f-b23939182bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\03. Kuro">
+      <UniqueIdentifier>{299fc3a5-25ab-47d8-a3de-fb94a57db981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\03. Kuro\00. Kuro_Cup">
+      <UniqueIdentifier>{bd62633b-a8ed-4a6c-aecd-bae3590f43a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\03. Kuro\01. Kuro_Car">
+      <UniqueIdentifier>{09ba9fa2-65dc-4725-8393-eed9f00e8381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\03. Kuro\02. Kuro_Horse">
+      <UniqueIdentifier>{cbd25542-51b2-4f51-a88c-14be4be01c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Bullet_Dead">
+      <UniqueIdentifier>{1a6c5e32-4c20-4cae-b4d3-6398d7acef8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Tanmak_Effect">
+      <UniqueIdentifier>{4a5e73b2-05d6-4cfe-bb4a-baca6749d8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\02. Binah">
+      <UniqueIdentifier>{2bc281a6-7020-47db-9eb1-d930f8de2421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\01. Chesed\Run_Obstacle">
+      <UniqueIdentifier>{200c279e-e067-4fe0-8ac8-e0e4989f4163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\10. Sky">
+      <UniqueIdentifier>{e7318b2b-b989-4d83-91a8-3051d8109ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07. TileField\15. StaticObject\00. KuroGround">
+      <UniqueIdentifier>{6db2e26c-5aa9-4a77-9093-0100aeabfe50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\02. Public">
+      <UniqueIdentifier>{fa4e49bf-2fff-4a5f-b879-aa40aa7f470d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\04. Normal">
+      <UniqueIdentifier>{2d5536e3-a3ce-4112-96d0-ff056b808725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06. AttackObj\01. Monster\04. Normal\Parabola">
+      <UniqueIdentifier>{1c7ca65b-ceb0-42c1-b24c-26b5bb8aaec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\15. Gacha_Mgr">
+      <UniqueIdentifier>{5e182b43-4ffa-406e-b27b-842b5a8a5b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr">
+      <UniqueIdentifier>{c45c078e-3e79-42f3-b1cc-bd315376aeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint">
+      <UniqueIdentifier>{17236599-9709-482f-a9c7-1fa9aed916b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\00. Cam_Control_Eye">
+      <UniqueIdentifier>{d833765a-3040-4f53-9073-ce6e4950c09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\01. Cam_Control_At">
+      <UniqueIdentifier>{06b0b771-c086-4cf1-829f-d8d9b7e1ad7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Goliath_Decagram_Vulcan">
+      <UniqueIdentifier>{361a3ced-ce11-435c-9d77-e287f70ee028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effects\05. SkillObject\00. UISkillObject">
+      <UniqueIdentifier>{1a6ab4f8-7cb3-48ec-b3ee-b84673e7e003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase">
+      <UniqueIdentifier>{f6769139-f7c9-43ec-a1d4-4b813606fd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase">
+      <UniqueIdentifier>{5c2123a7-32e2-4ca6-8455-d46c12bca283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Halo">
+      <UniqueIdentifier>{61eee640-d375-42e9-86a3-1bdbfbb30165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Environment">
+      <UniqueIdentifier>{563c4c0e-2f7d-45bc-a9e5-808d0f1dc73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Tail">
+      <UniqueIdentifier>{31d9f987-45ba-414e-b326-4ba9e581ee70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase\Railgun">
+      <UniqueIdentifier>{297e8a10-c0e9-4101-9372-da9b911d84d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase\Tower">
+      <UniqueIdentifier>{2aed9ddc-c2bf-49d3-8ce2-5f36d26f03ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase\Cannon">
+      <UniqueIdentifier>{b7ade85a-8d21-4f43-9b31-7db5054d411d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame">
+      <UniqueIdentifier>{7a1eeb96-3083-4244-93f4-adf236b44aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame\01. Run_Map">
+      <UniqueIdentifier>{0e70ee21-9467-42d7-87f2-f3f7425e69f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame\00. Run_Unit">
+      <UniqueIdentifier>{963a715f-4f95-4f29-a3af-6e341e2aae1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame\00. Run_Unit\Run_Player">
+      <UniqueIdentifier>{2a55359a-fe3d-43df-899f-4117d556dbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster">
+      <UniqueIdentifier>{4210fd0e-a094-4a90-89e1-79daf2307056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster\Run_Chesed">
+      <UniqueIdentifier>{4661bfe1-0639-4ceb-bb17-928b11d6626a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster\Run_Drone">
+      <UniqueIdentifier>{f725bbff-18be-4661-9766-575107fd3cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\16. LoadingManager">
+      <UniqueIdentifier>{f48c1095-b27d-4f34-9f47-b10c1d3e0ba6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Engine_Enum.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Engine_Function.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Engine_Struct.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Engine_Typedef.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Export_Function.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Engine_Define.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Wall512.h">
+      <Filter>98. Managers\12. Wall512</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MyMath.h">
+      <Filter>97. Utility\00. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DataParsing.h">
+      <Filter>97. Utility\01. DataParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Utility.h">
+      <Filter>97. Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Timer.h">
+      <Filter>00. System\01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Engine_Macro.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GraphicDev.h">
+      <Filter>00. System\00. GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\KeyManager.h">
+      <Filter>00. System\04. KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Layer.h">
+      <Filter>03. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GameObject.h">
+      <Filter>04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component.h">
+      <Filter>05. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Transform.h">
+      <Filter>05. Component\00. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ProtoMgr.h">
+      <Filter>98. Managers\01. ProtoMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Management.h">
+      <Filter>01. Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VIBuffer.h">
+      <Filter>05. Component\02. VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RectBuffer.h">
+      <Filter>05. Component\02. VIBuffer\00.RectBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MyFont.h">
+      <Filter>00. System\03. MyFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FontMgr.h">
+      <Filter>00. System\03. MyFont\FontMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Light.h">
+      <Filter>08. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightMgr.h">
+      <Filter>98. Managers\04. LightMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RenderTarget.h">
+      <Filter>98. Managers\10. RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RenderTargetMgr.h">
+      <Filter>98. Managers\03. RenderTargetMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shader.h">
+      <Filter>09. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera.h">
+      <Filter>04. GameObject\01. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicCamera.h">
+      <Filter>04. GameObject\01. Camera\01. DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimeScale_Manager.h">
+      <Filter>00. System\06. TimeScaleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Frame.h">
+      <Filter>00. System\02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FrameMgr.h">
+      <Filter>00. System\02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimerMgr.h">
+      <Filter>00. System\01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Texture.h">
+      <Filter>05. Component\03. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Renderer.h">
+      <Filter>05. Component\01. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CollisionManager.h">
+      <Filter>98. Managers\02. CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Collider.h">
+      <Filter>05. Component\05. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SphereCollider.h">
+      <Filter>05. Component\05. Collider\00.SphereCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SMesh.h">
+      <Filter>05. Component\04. Mesh\01. SMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HierarchyLoader.h">
+      <Filter>05. Component\04. Mesh\02. DMesh\01. HierarchyLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AniCtrl.h">
+      <Filter>05. Component\04. Mesh\02. DMesh\02. AniCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RectTest.h">
+      <Filter>05. Component\02. VIBuffer\02. RectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI_Object.h">
+      <Filter>04. GameObject\02. UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shader_Blend.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shader_Shade.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DataManager.h">
+      <Filter>98. Managers\05. DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\XL_ParsingMgr.h">
+      <Filter>00. System\07. XL_ParsingMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CharacterMgr.h">
+      <Filter>98. Managers\13. CharacterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ParticleObject.h">
+      <Filter>04. GameObject\04. Effects\01. ParticleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI_Slider_Vert.h">
+      <Filter>04. GameObject\02. UIObject\01. UI_Slider_Vert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI_Scroll_View.h">
+      <Filter>04. GameObject\02. UIObject\02. UI_Scroll_View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FogManager.h">
+      <Filter>98. Managers\06. FogManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GameManager.h">
+      <Filter>98. Managers\07. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PrefabManager.h">
+      <Filter>98. Managers\09. PrefabManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sound_Manager.h">
+      <Filter>00. System\08. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Dialog_Manager.h">
+      <Filter>98. Managers\08. Dialog_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shader_Effect.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EffectObject.h">
+      <Filter>04. GameObject\04. Effects\02. EffectObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI_Manager.h">
+      <Filter>98. Managers\10. UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EMesh.h">
+      <Filter>05. Component\04. Mesh\03. EMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Monster.h">
+      <Filter>04. GameObject\03. Unit\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Character.h">
+      <Filter>04. GameObject\03. Unit\00. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI_Damage.h">
+      <Filter>04. GameObject\02. UIObject\03. UI_Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera_TPS.h">
+      <Filter>04. GameObject\01. Camera\02. TPSCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Skill_Manager.h">
+      <Filter>98. Managers\11. SkillManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DMesh.h">
+      <Filter>05. Component\04. Mesh\02. DMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Obstacle_Combat.h">
+      <Filter>04. GameObject\05. World관련\03. Obstacle\Combat_Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Obstacle.h">
+      <Filter>04. GameObject\05. World관련\03. Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Line.h">
+      <Filter>00. System\05. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Calculator.h">
+      <Filter>97. Utility\03. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Obstacle_Cafe.h">
+      <Filter>04. GameObject\05. World관련\03. Obstacle\Cafe_Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera_Cafe.h">
+      <Filter>04. GameObject\01. Camera\03. CafeCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sukeban_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Mutsuki.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\54. Mutsuki</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Unit.h">
+      <Filter>04. GameObject\03. Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sukeban_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sukeban_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Shun.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\56. Shun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Neru.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\57. Neru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Maki.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\55. Maki</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StageMap.h">
+      <Filter>04. GameObject\05. World관련\02. StageMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WorldCreator.h">
+      <Filter>04. GameObject\05. World관련\01. WorldCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Aru.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\58. Aru</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HeavyTank01_Helmet_Cannon.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\01. HeavyTank01_Helmet_Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Aris.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\59. Aris</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terror_Droid_Mimesis_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terror_Droid_Mimesis_RL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_RL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terror_Droid_Mimesis_Shield.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terror_GasMask_Arius_GL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terror_GasMask_Arius_HMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_HMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terror_GasMask_Arius_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yustina_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yustina_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yustina_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\YukataHanya_StreetGhostes_SR_Turret.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR_Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\YukataHanya_StreetGhostes_SR_Cannon.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR_Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\YukataHanya_StreetGhostes_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_SG_Turret.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_SG_Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_SG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_SG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TechSoldier_Decagram_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\06. TechSoldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sweeper_Decagram_Taser.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Sweeper_Decagram_Taser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Momoi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\00. Momoi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Azusa.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\01. Azusa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Chise.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\03. Chise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Chinatsu.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\00. Chinatsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Eimi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\04. Eimi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Hasumi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\05. Hasumi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Hibiki.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\01. Hibiki</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Hina.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\06. Hina</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Iori.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\07. Iori</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Izumi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\08. Izumi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Juri.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\02. Juri</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Kayoko.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\03. Kayoko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Karin.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\04. Karin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Kirino.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\09. Kirino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Mashiro.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\05. Mashiro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Serika.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\10. Serika</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Akane.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\11. Akane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Airi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\06. Airi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Nodoka.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\Nodoka</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Pina.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Pina</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Sumire.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Sumire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Suzumi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Suzumi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Utaha.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\Utaha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Wakamo.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Wakamo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Yoshimi.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\Yoshimi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Yuzu.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Yuzu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cook_GenbuStore_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Droid_Helmet_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Droid_Helmet_RL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\RL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Droid_HelmetBoss_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Droid_Helmet_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cook_GenbuStore_SG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\SG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cook_GenbuStore_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BoxCat.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\BoxCat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Droid_Yoheki_Shield.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\02. Droid_Yoheki\00. Droid_Yoheki_Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Drone_Decagram_Vulcan.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone\01. Drone_Decagram_Vulcan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Drone_Decagram_Missile.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone\00. Drone_Decagram_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EnemyTSS_Aparche_Blackmarket.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS\00. EnemyTSS_Aparche_Blackmarket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EnemyTSS_Crusader_PMC.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS\01. EnemyTSS_Crusader_PMC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FoodTruck_GenbuStore_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. GenbuStore\00. FoodTruck_GenbuStore_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FX_Utaha_Original_Turret.h">
+      <Filter>04. GameObject\03. Unit\00. Character\SkillObject\01. Turret\00. FX_Utaha_Original_Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GasMask_Arius_HMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask\00. GasMask_Arius_HMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GasMask_Arius_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask\01. GasMask_Arius_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HeavyTank_Decagram_Cannon.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\00. HeavyTank_Decagram_Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kaitenranger_Black_HG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\00. Kaitenranger_Black_HG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kaitenranger_Green_HMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\01. Kaitenranger_Green_HMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kaitenranger_Pink_RL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\02. Kaitenranger_Pink_RL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kaitenranger_Red_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\03. Kaitenranger_Red_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kaitenranger_Yellow_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\04. Kaitenranger_Yellow_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\KumabotPapa_Slumpia_SG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\10. Slumpia\KumabotPapa_Slumpia_SG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LightTank_Helmet_Vulcan.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\02. LightTank_Helmet_Vulcan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoyalGuard_RedWinter_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_YohekiPink_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_YohekiPink_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_YohekiPink_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_YohekiPink_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_RWY_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RWY_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_RedWinterYoheki_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RedWinterYoheki_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_RedWinterYoheki_SG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RedWinterYoheki_SG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_Kaiserpmc_HG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Kaiserpmc_HG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_Helmet_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_Helmet_SG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_SG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_Fuuki_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Fuuki_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_Helmet_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Soldier_Blackmarket_RL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Blackmarket_RL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirlBoss02_SukebanSwim_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirlBoss02_SukebanSwim_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirl03_SukebanSwim_MG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl03_SukebanSwim_MG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirl03_Sukeban_HMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl03_Sukeban_HMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirl02_SukebanSwim_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl02_SukebanSwim_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirl02_Sukeban_SR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl02_Sukeban_SR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirl01_SukebanSwim_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl01_SukebanSwim_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SchoolGirl01_Sukeban_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl01_Sukeban_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoyalGuard_RedWinterSergeant_AR.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinterSergeant_AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoyalGuard_RedWinter_SMG.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_SMG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoyalGuard_RedWinter_GL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CombatTile.h">
+      <Filter>04. GameObject\07. TileField\09. CombatTile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mascot.h">
+      <Filter>04. GameObject\07. TileField\10. Mascot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TileField.h">
+      <Filter>04. GameObject\07. TileField\11. TileFieldObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\QuatCamera.h">
+      <Filter>04. GameObject\01. Camera\04. QuatCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Boss_HpBar.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\13. Boss_UI\00. Boss_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WorldUI.h">
+      <Filter>04. GameObject\07. TileField\14. WorldUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackBoard.h">
+      <Filter>04. GameObject\07. TileField\12. BackBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kuro.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\01. Kuro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shiro.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\00. Shiro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BossMonster.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Normal.h">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shiro_Bomb_S.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\00. Shiro\Shiro_Bomb_S</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shiro_Ball.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\00. Shiro\Shiro_Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AttackObj.h">
+      <Filter>04. GameObject\06. AttackObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticObject.h">
+      <Filter>04. GameObject\07. TileField\15. StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CamControl_At.h">
+      <Filter>98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\01. Cam_Control_At</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CamControl_Eye.h">
+      <Filter>98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\00. Cam_Control_Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Warning.h">
+      <Filter>04. GameObject\04. Effects\03. Warning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hieronymus.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Warning_Mgr.h">
+      <Filter>04. GameObject\04. Effects\03. Warning\Warning_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hiero_G_Lantern.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus\Green_Lantern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hiero_R_Lantern.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus\Red_Lantern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Bezier.h">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Bezier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Run_Player.h">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit\Run_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ActionCam_Mgr.h">
+      <Filter>98. Managers\14. ActionCam_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Trail_Fix.h">
+      <Filter>04. GameObject\04. Effects\04. Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Normal_Trail.h">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Normal_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Run_Map.h">
+      <Filter>04. GameObject\08. MiniGame\01. Run_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Run_Chesed.h">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster\Run_Chesed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Run_Unit.h">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Run_Normal.h">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Run_Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CrossRectBuffer.h">
+      <Filter>05. Component\02. VIBuffer\03.CrossRectBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Chesed_Normal_Bullet.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Normal_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkillObject.h">
+      <Filter>04. GameObject\04. Effects\05. SkillObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Invite_Character.h">
+      <Filter>04. GameObject\09. Cafe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Char_Zunko.h">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\60. Zunko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Run_Drone.h">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster\Run_Drone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Chesed_Circle_Bullet.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Circle_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Chesed_Direct_Laser.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Direct_Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Chesed_Web_Laser.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Web_Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Drone_Bullet.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Drone_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StraightGuide.h">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\00. Straight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkillGuideObject.h">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CircleGuide.h">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\04. Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FanGuide.h">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\01. Fan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DonutGuide.h">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\02. Donut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CutDonutGuide.h">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\03. CutDonut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kuro_Cup.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\03. Kuro\00. Kuro_Cup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kuro_Car.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\03. Kuro\01. Kuro_Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Kuro_Horse.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\03. Kuro\02. Kuro_Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Dead.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Bullet_Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tanmak_Effect.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Tanmak_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Binah_Halo.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Halo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Binah_Tail.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Yukata_StreetGhostes_RL.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_RL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Run_Obstacle.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Run_Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyDome.h">
+      <Filter>04. GameObject\10. Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SphereTex2.h">
+      <Filter>05. Component\02. VIBuffer\01. SphereBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\KuroGround.h">
+      <Filter>04. GameObject\07. TileField\15. StaticObject\00. KuroGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Normal_Monster.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\04. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet_Parabola_Monster.h">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\04. Normal\Parabola</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Binah_Environment.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Goliath_Decagram_Vulcan.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Goliath_Decagram_Vulcan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UISkillObject.h">
+      <Filter>04. GameObject\04. Effects\05. SkillObject\00. UISkillObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Binah.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hod.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hod_Cannon.h">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LoadingManager.h">
+      <Filter>98. Managers\16. LoadingManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Wall512.cpp">
+      <Filter>98. Managers\12. Wall512</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MyMath.cpp">
+      <Filter>97. Utility\00. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DataParsing.cpp">
+      <Filter>97. Utility\01. DataParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Utility.cpp">
+      <Filter>97. Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Timer.cpp">
+      <Filter>00. System\01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GraphicDev.cpp">
+      <Filter>00. System\00. GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KeyManager.cpp">
+      <Filter>00. System\04. KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Layer.cpp">
+      <Filter>03. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameObject.cpp">
+      <Filter>04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component.cpp">
+      <Filter>05. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Transform.cpp">
+      <Filter>05. Component\00. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ProtoMgr.cpp">
+      <Filter>98. Managers\01. ProtoMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Management.cpp">
+      <Filter>01. Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VIBuffer.cpp">
+      <Filter>05. Component\02. VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RectBuffer.cpp">
+      <Filter>05. Component\02. VIBuffer\00.RectBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MyFont.cpp">
+      <Filter>00. System\03. MyFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FontMgr.cpp">
+      <Filter>00. System\03. MyFont\FontMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Light.cpp">
+      <Filter>08. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightMgr.cpp">
+      <Filter>98. Managers\04. LightMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RenderTarget.cpp">
+      <Filter>98. Managers\10. RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RenderTargetMgr.cpp">
+      <Filter>98. Managers\03. RenderTargetMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shader.cpp">
+      <Filter>09. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera.cpp">
+      <Filter>04. GameObject\01. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>04. GameObject\01. Camera\01. DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimeScale_Manager.cpp">
+      <Filter>00. System\06. TimeScaleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Frame.cpp">
+      <Filter>00. System\02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FrameMgr.cpp">
+      <Filter>00. System\02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimerMgr.cpp">
+      <Filter>00. System\01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Texture.cpp">
+      <Filter>05. Component\03. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Renderer.cpp">
+      <Filter>05. Component\01. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CollisionManager.cpp">
+      <Filter>98. Managers\02. CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Collider.cpp">
+      <Filter>05. Component\05. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SphereCollider.cpp">
+      <Filter>05. Component\05. Collider\00.SphereCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SMesh.cpp">
+      <Filter>05. Component\04. Mesh\01. SMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HierarchyLoader.cpp">
+      <Filter>05. Component\04. Mesh\02. DMesh\01. HierarchyLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AniCtrl.cpp">
+      <Filter>05. Component\04. Mesh\02. DMesh\02. AniCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RectTest.cpp">
+      <Filter>05. Component\02. VIBuffer\02. RectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI_Object.cpp">
+      <Filter>04. GameObject\02. UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DataManager.cpp">
+      <Filter>98. Managers\05. DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\XL_ParsingMgr.cpp">
+      <Filter>00. System\07. XL_ParsingMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CharacterMgr.cpp">
+      <Filter>98. Managers\13. CharacterMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ParticleObject.cpp">
+      <Filter>04. GameObject\04. Effects\01. ParticleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI_Slider_Vert.cpp">
+      <Filter>04. GameObject\02. UIObject\01. UI_Slider_Vert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI_Scroll_View.cpp">
+      <Filter>04. GameObject\02. UIObject\02. UI_Scroll_View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FogManager.cpp">
+      <Filter>98. Managers\06. FogManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Unit.cpp">
+      <Filter>04. GameObject\03. Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameManager.cpp">
+      <Filter>98. Managers\07. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PrefabManager.cpp">
+      <Filter>98. Managers\09. PrefabManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sound_Manager.cpp">
+      <Filter>00. System\08. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Dialog_Manager.cpp">
+      <Filter>98. Managers\08. Dialog_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EffectObject.cpp">
+      <Filter>04. GameObject\04. Effects\02. EffectObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI_Manager.cpp">
+      <Filter>98. Managers\10. UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EMesh.cpp">
+      <Filter>05. Component\04. Mesh\03. EMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Character.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI_Damage.cpp">
+      <Filter>04. GameObject\02. UIObject\03. UI_Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera_TPS.cpp">
+      <Filter>04. GameObject\01. Camera\02. TPSCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Skill_Manager.cpp">
+      <Filter>98. Managers\11. SkillManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DMesh.cpp">
+      <Filter>05. Component\04. Mesh\02. DMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Obstacle_Combat.cpp">
+      <Filter>04. GameObject\05. World관련\03. Obstacle\Combat_Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Obstacle.cpp">
+      <Filter>04. GameObject\05. World관련\03. Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Line.cpp">
+      <Filter>00. System\05. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Calculator.cpp">
+      <Filter>97. Utility\03. Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Obstacle_Cafe.cpp">
+      <Filter>04. GameObject\05. World관련\03. Obstacle\Cafe_Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera_Cafe.cpp">
+      <Filter>04. GameObject\01. Camera\03. CafeCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sukeban_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Mutsuki.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\54. Mutsuki</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sukeban_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sukeban_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\00. Sukeban\Sukeban_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Shun.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\56. Shun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Neru.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\57. Neru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Maki.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\55. Maki</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StageMap.cpp">
+      <Filter>04. GameObject\05. World관련\02. StageMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WorldCreator.cpp">
+      <Filter>04. GameObject\05. World관련\01. WorldCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Aru.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\58. Aru</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HeavyTank01_Helmet_Cannon.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\01. HeavyTank01_Helmet_Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Aris.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\59. Aris</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terror_Droid_Mimesis_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terror_Droid_Mimesis_RL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_RL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terror_Droid_Mimesis_Shield.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\Droid_Mimesis_Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terror_GasMask_Arius_GL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terror_GasMask_Arius_HMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_HMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terror_GasMask_Arius_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Terror\GasMask_Arius_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yustina_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yustina_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yustina_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. Yustina\Yustina_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\YukataHanya_StreetGhostes_SR_Turret.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR_Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\YukataHanya_StreetGhostes_SR_Cannon.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR_Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\YukataHanya_StreetGhostes_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\YukataHanya_StreetGhostes_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_SG_Turret.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_SG_Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_SG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_SG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TechSoldier_Decagram_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\06. TechSoldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sweeper_Decagram_Taser.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Sweeper_Decagram_Taser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Momoi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\00. Momoi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Azusa.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\01. Azusa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Chise.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\03. Chise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Chinatsu.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\00. Chinatsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Eimi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\04. Eimi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Hasumi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\05. Hasumi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Hibiki.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\01. Hibiki</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Hina.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\06. Hina</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Iori.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\07. Iori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Izumi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\08. Izumi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Juri.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\02. Juri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Kayoko.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\03. Kayoko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Karin.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\04. Karin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Kirino.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\09. Kirino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Mashiro.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\05. Mashiro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Serika.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\10. Serika</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Akane.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\11. Akane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Airi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\06. Airi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Nodoka.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\Nodoka</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Pina.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Pina</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Sumire.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Sumire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Suzumi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Suzumi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Utaha.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\Utaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Wakamo.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Wakamo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Yoshimi.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Special\Yoshimi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Yuzu.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\Yuzu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cook_GenbuStore_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Droid_Helmet_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Droid_Helmet_RL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\RL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Droid_HelmetBoss_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Droid_Helmet_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Droid_Helmet\SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cook_GenbuStore_SG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\SG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cook_GenbuStore_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Cook_GenbuStore\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BoxCat.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\BoxCat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Droid_Yoheki_Shield.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\02. Droid_Yoheki\00. Droid_Yoheki_Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Drone_Decagram_Vulcan.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone\01. Drone_Decagram_Vulcan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Drone_Decagram_Missile.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\03. Drone\00. Drone_Decagram_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EnemyTSS_Aparche_Blackmarket.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS\00. EnemyTSS_Aparche_Blackmarket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EnemyTSS_Crusader_PMC.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. EnemyTSS\01. EnemyTSS_Crusader_PMC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FoodTruck_GenbuStore_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\05. GenbuStore\00. FoodTruck_GenbuStore_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FX_Utaha_Original_Turret.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\SkillObject\01. Turret\00. FX_Utaha_Original_Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GasMask_Arius_HMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask\00. GasMask_Arius_HMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GasMask_Arius_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\07. Gasmask\01. GasMask_Arius_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HeavyTank_Decagram_Cannon.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\00. HeavyTank_Decagram_Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kaitenranger_Black_HG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\00. Kaitenranger_Black_HG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kaitenranger_Green_HMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\01. Kaitenranger_Green_HMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kaitenranger_Pink_RL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\02. Kaitenranger_Pink_RL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kaitenranger_Red_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\03. Kaitenranger_Red_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kaitenranger_Yellow_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\09. Kaitenranger\04. Kaitenranger_Yellow_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KumabotPapa_Slumpia_SG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\10. Slumpia\KumabotPapa_Slumpia_SG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightTank_Helmet_Vulcan.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\08. Tank\02. LightTank_Helmet_Vulcan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoyalGuard_RedWinter_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_YohekiPink_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_YohekiPink_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_YohekiPink_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_YohekiPink_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_RWY_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RWY_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_RedWinterYoheki_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RedWinterYoheki_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_RedWinterYoheki_SG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_RedWinterYoheki_SG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_Kaiserpmc_HG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Kaiserpmc_HG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_Helmet_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_Helmet_SG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_SG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_Helmet_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Helmet_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_Fuuki_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Fuuki_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Soldier_Blackmarket_RL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\13. Solider\Soldier_Blackmarket_RL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirlBoss02_SukebanSwim_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirlBoss02_SukebanSwim_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirl03_SukebanSwim_MG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl03_SukebanSwim_MG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirl03_Sukeban_HMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl03_Sukeban_HMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirl02_SukebanSwim_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl02_SukebanSwim_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirl02_Sukeban_SR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl02_Sukeban_SR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirl01_SukebanSwim_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl01_SukebanSwim_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SchoolGirl01_Sukeban_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\12. SchoolGirl\SchoolGirl01_Sukeban_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoyalGuard_RedWinterSergeant_AR.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinterSergeant_AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoyalGuard_RedWinter_SMG.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_SMG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoyalGuard_RedWinter_GL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\11. RoyalGuard\RoyalGuard_RedWinter_GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CombatTile.cpp">
+      <Filter>04. GameObject\07. TileField\09. CombatTile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mascot.cpp">
+      <Filter>04. GameObject\07. TileField\10. Mascot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TileField.cpp">
+      <Filter>04. GameObject\07. TileField\11. TileFieldObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\QuatCamera.cpp">
+      <Filter>04. GameObject\01. Camera\04. QuatCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Boss_HpBar.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\13. Boss_UI\00. Boss_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WorldUI.cpp">
+      <Filter>04. GameObject\07. TileField\14. WorldUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackBoard.cpp">
+      <Filter>04. GameObject\07. TileField\12. BackBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kuro.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\01. Kuro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shiro.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\00. Shiro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BossMonster.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Normal.cpp">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shiro_Bomb_S.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\00. Shiro\Shiro_Bomb_S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shiro_Ball.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\00. Shiro\Shiro_Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AttackObj.cpp">
+      <Filter>04. GameObject\06. AttackObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticObject.cpp">
+      <Filter>04. GameObject\07. TileField\15. StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CamControl_At.cpp">
+      <Filter>98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\01. Cam_Control_At</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CamControl_Eye.cpp">
+      <Filter>98. Managers\14. ActionCam_Mgr\01. Cam_ControlPoint\00. Cam_Control_Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hieronymus.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Warning_Mgr.cpp">
+      <Filter>04. GameObject\04. Effects\03. Warning\Warning_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hiero_G_Lantern.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus\Green_Lantern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hiero_R_Lantern.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\02. Hieronymus\Red_Lantern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Bezier.cpp">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Bezier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Run_Player.cpp">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit\Run_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Run_Map.cpp">
+      <Filter>04. GameObject\08. MiniGame\01. Run_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ActionCam_Mgr.cpp">
+      <Filter>98. Managers\14. ActionCam_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Trail_Fix.cpp">
+      <Filter>04. GameObject\04. Effects\04. Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Normal_Trail.cpp">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Normal_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrossRectBuffer.cpp">
+      <Filter>05. Component\02. VIBuffer\03.CrossRectBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Run_Chesed.cpp">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster\Run_Chesed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Run_Unit.cpp">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Run_Normal.cpp">
+      <Filter>04. GameObject\06. AttackObj\00. Player\Bullet_Run_Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Chesed_Normal_Bullet.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Normal_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillObject.cpp">
+      <Filter>04. GameObject\04. Effects\05. SkillObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Invite_Character.cpp">
+      <Filter>04. GameObject\09. Cafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Char_Zunko.cpp">
+      <Filter>04. GameObject\03. Unit\00. Character\Striker\60. Zunko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Run_Drone.cpp">
+      <Filter>04. GameObject\08. MiniGame\00. Run_Unit\Run_Monster\Run_Drone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Chesed_Circle_Bullet.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Circle_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Chesed_Direct_Laser.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Direct_Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Chesed_Web_Laser.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Chesed_Web_Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Drone_Bullet.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Drone_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StraightGuide.cpp">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\00. Straight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillGuideObject.cpp">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CircleGuide.cpp">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\04. Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FanGuide.cpp">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\01. Fan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DonutGuide.cpp">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\02. Donut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CutDonutGuide.cpp">
+      <Filter>04. GameObject\04. Effects\06. SkillGuideObject\03. CutDonut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kuro_Cup.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\03. Kuro\00. Kuro_Cup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kuro_Car.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\03. Kuro\01. Kuro_Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kuro_Horse.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\03. Kuro\02. Kuro_Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Dead.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Bullet_Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tanmak_Effect.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Tanmak_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Binah_Halo.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Halo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Binah_Tail.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Yukata_StreetGhostes_RL.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\04. Yukata\Yukata_StreetGhostes_RL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Run_Obstacle.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\01. Chesed\Run_Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyDome.cpp">
+      <Filter>04. GameObject\10. Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SphereTex2.cpp">
+      <Filter>05. Component\02. VIBuffer\01. SphereBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KuroGround.cpp">
+      <Filter>04. GameObject\07. TileField\15. StaticObject\00. KuroGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Warning.cpp">
+      <Filter>04. GameObject\04. Effects\03. Warning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Normal_Monster.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\04. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet_Parabola_Monster.cpp">
+      <Filter>04. GameObject\06. AttackObj\01. Monster\04. Normal\Parabola</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Binah_Environment.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Goliath_Decagram_Vulcan.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\몬스터 %28작업필요%29\Goliath_Decagram_Vulcan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UISkillObject.cpp">
+      <Filter>04. GameObject\04. Effects\05. SkillObject\00. UISkillObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Binah.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\1Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hod.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hod_Cannon.cpp">
+      <Filter>04. GameObject\03. Unit\01. Monster\보스들 Boss\03. Binah\2Phase\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingManager.cpp">
+      <Filter>98. Managers\16. LoadingManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Code\Shader_Ui.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Base.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Effect_Blend.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Trail.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_PostProcess.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Blur.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_LightMgr.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_GodRay.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Show_Blend.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Show_Shade.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Code\Shader_Show_Base.fx">
+      <Filter>09. Shader\Fx</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+﻿  stdafx.cpp
+  BackGround.cpp
+  DMesh_Test.cpp
+  MFC_CamControl_At.cpp
+  MFC_CamControl_Eye.cpp
+  MFC_Line.cpp
+  MFC_UnitTest.cpp
+  Scene_Cafe.cpp
+  Scene_Combat.cpp
+  Scene_RunTest.cpp
+  Scene_TileField.cpp
+  StartMark.cpp
+  SMesh_Test.cpp
+  Scene_Loading.cpp
+  Scene_Lobby.cpp
+  Scene_Logo.cpp
+  Scene_Manager.cpp
+  MainFrm.cpp
+  MainView.cpp
+  MenuForm.cpp
+  MFC_Project.cpp
+  MFC_ProjectDoc.cpp
+  MFC_ProjectView.cpp
+  PopupTool_ObjectTree.cpp
+  PopupTool_TextureTree.cpp
+  Popup_EffectBase.cpp
+  Popup_EffectFilter.cpp
+  Popup_LightOption.cpp
+  Tool_Animation.cpp
+  Tool_Camera.cpp
+  Tool_Effect.cpp
+  Tool_Map.cpp
+  Tool_Particle.cpp
+  Tool_Tile.cpp
+  Tool_Ui.cpp
+  Tool_World.cpp
+     ../Bin\MFC_Project.lib 라이브러리 및 ../Bin\MFC_Project.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  4491 of 4514 functions (99.5%) were compiled, the rest were copied from previous compilation.
+    33 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  MFC_Project.vcxproj -> D:\팀 포폴\Team118A_Uint\MFC_Project\Include\../Bin\MFC_Project.exe

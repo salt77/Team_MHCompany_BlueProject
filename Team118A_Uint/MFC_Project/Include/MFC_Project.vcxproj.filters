@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{418bfbf0-c468-4e87-aba4-370a009adce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\Trash %28쓰레기통%29">
+      <UniqueIdentifier>{16a34938-ff03-40b5-8e23-a29547c7faa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject">
+      <UniqueIdentifier>{58db12bb-e29f-4ca3-b2e3-a82a4240a170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Menuform">
+      <UniqueIdentifier>{fbd1110d-bd61-4091-aac2-0f71aab1b1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainView">
+      <UniqueIdentifier>{086efaa6-3c5f-41a3-9559-6098a466c697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{d0446469-933f-4f72-811d-094351204ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools">
+      <UniqueIdentifier>{0d435c8e-341f-4008-94e1-255113a6d867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. Loading">
+      <UniqueIdentifier>{3eb4f214-6430-4a3e-af41-13d28ed7bc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\00. Tool_World">
+      <UniqueIdentifier>{de13494e-a115-4352-9dd1-4444ccb7f2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\05. Tool_Effect">
+      <UniqueIdentifier>{d08295c1-c38b-4090-8b18-b80859c11005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\SceneMgr">
+      <UniqueIdentifier>{f61571d7-ec4d-468c-b3ed-f5ec7ca05f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\00. BackGround">
+      <UniqueIdentifier>{7e0557ec-5125-413d-8f17-41ce9b4beb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. DMesh_Test">
+      <UniqueIdentifier>{d92ba36d-0a40-4711-a4b7-a2e68839afd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers">
+      <UniqueIdentifier>{6bc03a6b-cc43-4cbf-aaac-b96f30e1566d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainView\00. Object Tree">
+      <UniqueIdentifier>{c97b5c6d-f00f-4320-82d5-73f539c22ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\01. Tool_Camera">
+      <UniqueIdentifier>{f4f99218-273c-4e4a-b7b9-4695db892dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainView\01. Texture Tree">
+      <UniqueIdentifier>{21ac4759-5378-4e75-b18b-d54570c80c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\06. Tool_Animation">
+      <UniqueIdentifier>{4566d9a5-a5ca-483f-9f56-9ce34459ac69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainView\02. Light Option Tool">
+      <UniqueIdentifier>{e814d244-0b53-4cb1-9a50-4cb2ddb4b7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\04. Scene_Cafe">
+      <UniqueIdentifier>{1e5c9050-c20d-45b3-a6ac-18d0611ffa16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\03. Scene_Lobby">
+      <UniqueIdentifier>{71c24ed7-5361-45a0-ab5a-508561f720f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Scene_Logo">
+      <UniqueIdentifier>{fe208ba5-2a35-47f7-bc4c-7581bae4aed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. DMesh_Test\07. MFC_Test_Unit">
+      <UniqueIdentifier>{6de82d44-d225-46b9-98a8-3e015f85e3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\03. Tool_Map">
+      <UniqueIdentifier>{18c675f6-6211-4d06-b319-7b42de8ec152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\04. Tool_Particle">
+      <UniqueIdentifier>{39ae2ffe-4db9-432e-8768-fa8b916e77d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. SMesh_Test">
+      <UniqueIdentifier>{d6eeb98d-9c7a-49b9-90d7-0f07c9d955c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainView\03. EffectBase Tool">
+      <UniqueIdentifier>{8c5906bd-53f7-45fa-9884-6ebcee2f0868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\02. Tool_Ui">
+      <UniqueIdentifier>{23d001e8-d0f0-4a64-9adf-bdfafa621ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainView\04. EffectFilter Tool">
+      <UniqueIdentifier>{87091257-1c02-446c-b781-b9394d223f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\05. Scene_Combat">
+      <UniqueIdentifier>{795556e7-d5d0-4a3b-8e59-feffce115d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. MFC_Cam_Control">
+      <UniqueIdentifier>{b7f539df-3555-4e5f-9964-e53e6ff27f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. MFC_Cam_Control\Eye_Control">
+      <UniqueIdentifier>{0585a723-40af-47b3-820a-189a6f43538a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. MFC_Cam_Control\At_Control">
+      <UniqueIdentifier>{109f7145-5c03-418f-9cd4-7766cc13946f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. MFC_Cam_Control\Line">
+      <UniqueIdentifier>{b498aa7a-4401-445c-a36f-e098bd7eccc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\06.Character">
+      <UniqueIdentifier>{8da257f2-0d33-4a14-84be-c01e31455221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\07.StartMark">
+      <UniqueIdentifier>{9c2185a4-92e4-40ec-a080-d0242d9f7ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Tools\07. Tool_Tile">
+      <UniqueIdentifier>{9e51ae7d-1cad-44b0-b66f-ee2a499ab21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\06. Scene_TileField">
+      <UniqueIdentifier>{0092bbc1-fb85-4941-ab0b-64041b5fd587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\07. Scene_RunTest">
+      <UniqueIdentifier>{862cb5d9-4bd2-4916-8280-0b14abd159fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_Project.h">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuForm.h">
+      <Filter>00. Menuform</Filter>
+    </ClInclude>
+    <ClInclude Include="MainView.h">
+      <Filter>01. MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_Loading.h">
+      <Filter>02. Scene\01. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_World.h">
+      <Filter>03. Tools\00. Tool_World</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Camera.h">
+      <Filter>03. Tools\01. Tool_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_Manager.h">
+      <Filter>02. Scene\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_Logo.h">
+      <Filter>02. Scene\02. Scene_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_Lobby.h">
+      <Filter>02. Scene\03. Scene_Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Ui.h">
+      <Filter>03. Tools\02. Tool_Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Map.h">
+      <Filter>03. Tools\03. Tool_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackGround.h">
+      <Filter>04. GameObject\00. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SMesh_Test.h">
+      <Filter>04. GameObject\01. SMesh_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DMesh_Test.h">
+      <Filter>04. GameObject\02. DMesh_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupTool_ObjectTree.h">
+      <Filter>01. MainView\00. Object Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupTool_TextureTree.h">
+      <Filter>01. MainView\01. Texture Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_ProjectView.h">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_ProjectDoc.h">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Animation.h">
+      <Filter>03. Tools\06. Tool_Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Effect.h">
+      <Filter>03. Tools\05. Tool_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Particle.h">
+      <Filter>03. Tools\04. Tool_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup_LightOption.h">
+      <Filter>01. MainView\02. Light Option Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MFC_CamControl_Eye.h">
+      <Filter>04. GameObject\04. MFC_Cam_Control\Eye_Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MFC_CamControl_At.h">
+      <Filter>04. GameObject\04. MFC_Cam_Control\At_Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MFC_Line.h">
+      <Filter>04. GameObject\04. MFC_Cam_Control\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_Cafe.h">
+      <Filter>02. Scene\04. Scene_Cafe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MFC_UnitTest.h">
+      <Filter>04. GameObject\02. DMesh_Test\07. MFC_Test_Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup_EffectBase.h">
+      <Filter>01. MainView\03. EffectBase Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StartMark.h">
+      <Filter>04. GameObject\07.StartMark</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup_EffectFilter.h">
+      <Filter>01. MainView\04. EffectFilter Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_Combat.h">
+      <Filter>02. Scene\05. Scene_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Tile.h">
+      <Filter>03. Tools\07. Tool_Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_TileField.h">
+      <Filter>02. Scene\06. Scene_TileField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene_RunTest.h">
+      <Filter>02. Scene\07. Scene_RunTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuForm.cpp">
+      <Filter>00. Menuform</Filter>
+    </ClCompile>
+    <ClCompile Include="MainView.cpp">
+      <Filter>01. MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Loading.cpp">
+      <Filter>02. Scene\01. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_World.cpp">
+      <Filter>03. Tools\00. Tool_World</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Camera.cpp">
+      <Filter>03. Tools\01. Tool_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Manager.cpp">
+      <Filter>02. Scene\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Logo.cpp">
+      <Filter>02. Scene\02. Scene_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Lobby.cpp">
+      <Filter>02. Scene\03. Scene_Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Ui.cpp">
+      <Filter>03. Tools\02. Tool_Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Map.cpp">
+      <Filter>03. Tools\03. Tool_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackGround.cpp">
+      <Filter>04. GameObject\00. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SMesh_Test.cpp">
+      <Filter>04. GameObject\01. SMesh_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DMesh_Test.cpp">
+      <Filter>04. GameObject\02. DMesh_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupTool_ObjectTree.cpp">
+      <Filter>01. MainView\00. Object Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupTool_TextureTree.cpp">
+      <Filter>01. MainView\01. Texture Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_Project.cpp">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_ProjectDoc.cpp">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_ProjectView.cpp">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Animation.cpp">
+      <Filter>03. Tools\06. Tool_Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Effect.cpp">
+      <Filter>03. Tools\05. Tool_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Particle.cpp">
+      <Filter>03. Tools\04. Tool_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup_LightOption.cpp">
+      <Filter>01. MainView\02. Light Option Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MFC_CamControl_Eye.cpp">
+      <Filter>04. GameObject\04. MFC_Cam_Control\Eye_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MFC_CamControl_At.cpp">
+      <Filter>04. GameObject\04. MFC_Cam_Control\At_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MFC_Line.cpp">
+      <Filter>04. GameObject\04. MFC_Cam_Control\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Cafe.cpp">
+      <Filter>02. Scene\04. Scene_Cafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MFC_UnitTest.cpp">
+      <Filter>04. GameObject\02. DMesh_Test\07. MFC_Test_Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup_EffectBase.cpp">
+      <Filter>01. MainView\03. EffectBase Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StartMark.cpp">
+      <Filter>04. GameObject\07.StartMark</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup_EffectFilter.cpp">
+      <Filter>01. MainView\04. EffectFilter Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Combat.cpp">
+      <Filter>02. Scene\05. Scene_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Tile.cpp">
+      <Filter>03. Tools\07. Tool_Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_TileField.cpp">
+      <Filter>02. Scene\06. Scene_TileField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_RunTest.cpp">
+      <Filter>02. Scene\07. Scene_RunTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC_Project.ico">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </Image>
+    <Image Include="res\MFC_ProjectDoc.ico">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFC_Project.rc">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFC_Project.rc2">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default\Trash %28쓰레기통%29</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

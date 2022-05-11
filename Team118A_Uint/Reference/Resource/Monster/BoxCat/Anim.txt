@@ -1,0 +1,23 @@
+# paste under this to [axe_max_config.ini]
+AnimationCount=7
+Animation6_Name=Vital_Death2
+Animation6_StartKey=0
+Animation6_EndKey=74
+Animation5_Name=Appear
+Animation5_StartKey=75
+Animation5_EndKey=193
+Animation4_Name=Vital_Death2_Terror
+Animation4_StartKey=194
+Animation4_EndKey=269
+Animation3_Name=Start_Idle
+Animation3_StartKey=313
+Animation3_EndKey=431
+Animation2_Name=Start_Death
+Animation2_StartKey=432
+Animation2_EndKey=550
+Animation1_Name=Normal_Idle
+Animation1_StartKey=551
+Animation1_EndKey=614
+Animation0_Name=Vital_Death1
+Animation0_StartKey=670
+Animation0_EndKey=704

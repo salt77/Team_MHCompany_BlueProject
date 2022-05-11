@@ -1,0 +1,23 @@
+# paste under this to [axe_max_config.ini]
+AnimationCount=7
+Animation6_Name=Cafe_Idle
+Animation6_StartKey=0
+Animation6_EndKey=50
+Animation5_Name=Exs
+Animation5_StartKey=51
+Animation5_EndKey=128
+Animation4_Name=Cafe_Reaction
+Animation4_StartKey=129
+Animation4_EndKey=202
+Animation3_Name=Tactical_Start
+Animation3_StartKey=207
+Animation3_EndKey=267
+Animation2_Name=Exs_Cam
+Animation2_StartKey=285
+Animation2_EndKey=315
+Animation1_Name=Cafe_Walk
+Animation1_StartKey=316
+Animation1_EndKey=356
+Animation0_Name=Recorded
+Animation0_StartKey=357
+Animation0_EndKey=387

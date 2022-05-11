@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{22d71d95-7428-46c0-b029-10599966cbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일\Include">
+      <UniqueIdentifier>{4882b438-a505-4c57-8e66-89637d9c358d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainApp">
+      <UniqueIdentifier>{fec0a1e7-7a3b-4db1-8b51-75449924fb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{73c6e6ea-b5ca-4fda-ba4b-00312685684f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers">
+      <UniqueIdentifier>{1e7a6192-5b17-4fff-974f-2689a017784a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{598821ca-a860-49cd-a613-9b90336876bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. Loading">
+      <UniqueIdentifier>{ac03f2df-ae95-431c-ac2a-968977b0ffa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\00. Scene_Manager">
+      <UniqueIdentifier>{21f84ba2-13ba-41b3-bf8d-62997c21bfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Characters">
+      <UniqueIdentifier>{88bbedd5-8778-4eb3-b30b-e87c6b503e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Characters\00. Mutsuki">
+      <UniqueIdentifier>{3527ee51-7b31-4f76-82c7-afe252b1c7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\04. Camera_Cafe">
+      <UniqueIdentifier>{fb36ab9d-8d8d-412c-9659-cfb0cdd9312e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Characters\00. Mutsuki\02. Monster">
+      <UniqueIdentifier>{be71fb34-e20d-4ae8-a7c0-3e9747fe1457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. Logo">
+      <UniqueIdentifier>{c1b1844e-ea79-4c97-af76-e1c700392ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\03. Cafe">
+      <UniqueIdentifier>{83c9752d-d916-4472-a62a-c9ef86903226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\04. Combat">
+      <UniqueIdentifier>{f7b54e22-1606-4597-839e-bb8be4843bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Lobby">
+      <UniqueIdentifier>{3e4474ea-fefd-4a9d-bde2-0acc68f5ff4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Characters\03. Bullet">
+      <UniqueIdentifier>{a1ff5d86-26d7-4d89-8cd6-9aa939876ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\01. Playfab_Manager">
+      <UniqueIdentifier>{d4be99c6-0b67-4db1-8977-eec0f6305fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\99. Line">
+      <UniqueIdentifier>{6282798b-6214-4cae-b048-955d6725278b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\05. Run">
+      <UniqueIdentifier>{e6c13d32-70a6-4846-9156-b91e9a877c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. Loading_Background">
+      <UniqueIdentifier>{29d6b402-327e-44a5-b19b-744cac893ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\06. Tile">
+      <UniqueIdentifier>{b7d66f55-d444-4346-bc51-5244b0beaffb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Include.h">
+      <Filter>99. Etc\헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Define.h">
+      <Filter>99. Etc\헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Extern.h">
+      <Filter>99. Etc\헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientStruct.h">
+      <Filter>99. Etc\헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mutsuki.h">
+      <Filter>03. GameObject\01. Characters\00. Mutsuki</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Sukeban_SMG.h">
+      <Filter>03. GameObject\01. Characters\00. Mutsuki\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ray_Line.h">
+      <Filter>03. GameObject\99. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet.h">
+      <Filter>03. GameObject\01. Characters\03. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Loading.h">
+      <Filter>02. Scene\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Logo.h">
+      <Filter>02. Scene\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Lobby.h">
+      <Filter>02. Scene\02. Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Cafe.h">
+      <Filter>02. Scene\03. Cafe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Combat.h">
+      <Filter>02. Scene\04. Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Manager.h">
+      <Filter>04. Managers\00. Scene_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>01. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayFab_Mgr.h">
+      <Filter>04. Managers\01. Playfab_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_Run.h">
+      <Filter>02. Scene\05. Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CLoading_Background.h">
+      <Filter>03. GameObject\00. Loading_Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientScene_TileField.h">
+      <Filter>02. Scene\06. Tile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>01. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mutsuki.cpp">
+      <Filter>03. GameObject\01. Characters\00. Mutsuki</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Sukeban_SMG.cpp">
+      <Filter>03. GameObject\01. Characters\00. Mutsuki\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ray_Line.cpp">
+      <Filter>03. GameObject\99. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet.cpp">
+      <Filter>03. GameObject\01. Characters\03. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Loading.cpp">
+      <Filter>02. Scene\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Logo.cpp">
+      <Filter>02. Scene\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Lobby.cpp">
+      <Filter>02. Scene\02. Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Cafe.cpp">
+      <Filter>02. Scene\03. Cafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Combat.cpp">
+      <Filter>02. Scene\04. Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Manager.cpp">
+      <Filter>04. Managers\00. Scene_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayFab_Mgr.cpp">
+      <Filter>04. Managers\01. Playfab_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_Run.cpp">
+      <Filter>02. Scene\05. Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLoading_Background.cpp">
+      <Filter>03. GameObject\00. Loading_Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientScene_TileField.cpp">
+      <Filter>02. Scene\06. Tile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

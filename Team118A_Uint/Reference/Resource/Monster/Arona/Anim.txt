@@ -1,0 +1,26 @@
+# paste under this to [axe_max_config.ini]
+AnimationCount=8
+Animation7_Name=Sack_Open
+Animation7_StartKey=0
+Animation7_EndKey=43
+Animation6_Name=Gacha_Anim
+Animation6_StartKey=44
+Animation6_EndKey=194
+Animation5_Name=Sack_Open_1
+Animation5_StartKey=195
+Animation5_EndKey=239
+Animation4_Name=Sack_Idle
+Animation4_StartKey=346
+Animation4_EndKey=387
+Animation3_Name=Gacha_Anim_1
+Animation3_StartKey=497
+Animation3_EndKey=647
+Animation2_Name=Sack_Idle_1
+Animation2_StartKey=648
+Animation2_EndKey=689
+Animation1_Name=Sack_Ani
+Animation1_StartKey=799
+Animation1_EndKey=820
+Animation0_Name=Sack_180
+Animation0_StartKey=950
+Animation0_EndKey=981

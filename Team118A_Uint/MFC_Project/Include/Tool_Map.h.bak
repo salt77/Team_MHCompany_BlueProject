@@ -1,0 +1,60 @@
+#pragma once
+
+#include "afxwin.h"
+
+#ifndef __TOOL_MAP_H__
+#define __TOOL_MAP_H__
+
+#include "PopupTool_ObjectTree.h"
+
+class CMFC_Map;
+class CTool_Map : public CDialogEx
+{
+	DECLARE_DYNAMIC(CTool_Map)
+
+public:
+<<<<<<< HEAD
+	CTool_Map(CWnd* pParent = NULL);
+=======
+	CTool_Map(CWnd* pParent = NULL);   // 표준 생성자입니다.
+	CTool_Map(CPopupTool_ObjectTree* pPopup, CWnd* pParent = NULL);   // 표준 생성자입니다.
+>>>>>>> Branch_Merge00
+	virtual ~CTool_Map();
+
+#ifdef AFX_DESIGN_TIME
+	enum { IDD = IDD_JH_TOOL_MAP };
+#endif
+
+<<<<<<< HEAD
+public:
+	virtual BOOL OnInitDialog();
+=======
+protected:
+	CPopupTool_ObjectTree*	m_pPopupTool = nullptr;
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 지원입니다.
+>>>>>>> Branch_Merge00
+
+public:
+	afx_msg void OnShowWindow(BOOL bShow, UINT nStatus);
+	afx_msg void OnDropFiles(HDROP hDropInfo);
+
+public:
+	afx_msg void OnBnClicked_JH_Add_Map();
+	afx_msg void OnBnClicked_JH_Delete_Map();
+	afx_msg void OnBnClicked_JH_Save_Map();
+	afx_msg void OnBnClicked_JH_Load_Map();
+
+public:
+	CListBox m_MapListBox;
+	CListBox m_AddedMap;
+	
+protected:
+	virtual void DoDataExchange(CDataExchange* pDX);
+	DECLARE_MESSAGE_MAP()
+
+private:
+	LPDIRECT3DDEVICE9		m_pGraphicDev;
+	CMFC_Map*				m_pMap = nullptr;
+};
+
+#endif // !__TOOL_MAP_H__
