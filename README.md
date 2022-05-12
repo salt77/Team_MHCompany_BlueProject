@@ -3,6 +3,8 @@
 본 레포지토리는 기존에 팀에서 작업했던 레포지토리에서 가져와서 별도 보관하는 공간입니다. 
 
 ## 블루 아카이브 모작(5인 팀)
+### 첫 페이지에 보이는 헤더, 소스 파일은 코드 샘플입니다. 팀 작업이기에 이 외의 코드는 삭제 처리 했습니다. 
+
 
 ## Youtube Video 
 ![image](https://w.namu.la/s/9a2bd12a2c488026b0c552bd6527248ba60e70bf6e6d07e9c3a7f500fba5a9f0f74cb75a8fcd42babc39fa9abeec697c6dd86cd7c766515834b94b10746f95c898e0149438667e5a5f9ae7d85387c8e3f5625d227d49c1f330808e04ed699adf)(https://youtu.be/1sMdQW8UJuA)
