@@ -12,6 +12,7 @@
 
 ## About This Project
 제작 기간 :           2021/12 ~ 2022/02 약 2개월  
+제작 인원 :           5인 (팀장 김xx, 팀원 이제영, 강xx, 김xx, 최xx)
 메인 담당 파트 :      카메라, 대화문, 헤세드(보스), 학생부(캐릭터 관리)  
 개발 도구 및 환경 :   C++ 14, DirectX 9, MFC, LibXL, Visual Studio 2017, Github Desktop  
 
