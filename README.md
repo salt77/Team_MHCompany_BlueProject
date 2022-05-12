@@ -1,4 +1,4 @@
-# Team_MHCompany_BlueProject
+# Team_MHCompanyUint118A_BlueProject
 
 본 레포지토리는 기존에 팀에서 작업했던 레포지토리에서 가져와서 별도 보관하는 공간입니다. 
 
