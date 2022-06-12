@@ -1,3 +1,4 @@
+// (개인) 마영전 모작을 할 당시 버프 시스템 컴포넌트의 클래스 
 #include "stdafx.h"
 #include "BuffControl.h"
 
@@ -105,7 +106,7 @@ void CBuffControl::Compute_Buff()
 
 		for (; iter != m_listBuff.end(); )
 		{
-			// Buff ȿ�� 
+			// Buff È¿°ú 
 			switch ((*iter)->eBuffID)
 			{
 			case BUFF_CRITICAL:
@@ -132,7 +133,7 @@ void CBuffControl::Compute_Buff()
 				break;
 			}
 
-			// Buff �ð� ���� �� ���� 
+			// Buff ½Ã°£ Á¾·á ½Ã »èÁ¦ 
 			if ((*iter)->dwBuffStartTime + (*iter)->dwBuffDuration < GetTickCount())
 			{
 				switch ((*iter)->eBuffID)
