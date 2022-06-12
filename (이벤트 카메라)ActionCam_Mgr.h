@@ -77,7 +77,7 @@ private:
 	map<wstring, map<wstring, vector<CCamControl_Eye*>>>	m_dbMapActionEye;
 	map<wstring, map<wstring, vector<CCamControl_At*>>>		m_dbMapActionAt;
 
-	// ÇÊ¿äÇÒ °Í °°¾Æ º°µµ·Î Ãß°¡ÇÔ : ¹ÎÇö 
+	// í•„ìš”í•  ê²ƒ ê°™ì•„ ë³„ë„ë¡œ ì¶”ê°€í•¨ : ë¯¼í˜„ 
 	_float	m_fAngle_Rot_Y = 0.f;
 	_vec3	m_vAddPos = VEC_ZERO;
 };
