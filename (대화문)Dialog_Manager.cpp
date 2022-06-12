@@ -1,3 +1,4 @@
+// (5ì¸ íŒ€) ë¸”ë£¨ì•„ì¹´ì´ë¸Œ ëª¨ì‘ì—ì„œì˜ ìŠ¤í† ë¦¬ ëŒ€í™”ë¬¸ ìë™í™” ì½”ë“œ 
 #include "Dialog_Manager.h"
 
 #include "Scene.h" 
@@ -44,10 +45,10 @@ _int CDialog_Manager::Update_DialogManager(const _float& fTimeDelta)
 	return RETURN_OK;
 }
 
-// ´ÙÀÌ¾ó·Î±× ÀÌº¥Æ® ½ÃÀÛ(¸Å°³º¯¼ö ÀÌº¥Æ® ÀÌ¸§)
+// ë‹¤ì´ì–¼ë¡œê·¸ ì´ë²¤íŠ¸ ì‹œì‘(ë§¤ê°œë³€ìˆ˜ ì´ë²¤íŠ¸ ì´ë¦„)
 void CDialog_Manager::Start_DialogEvent(const wstring& wstrEventName)
 {
-	// µ¥ÀÌÅÍ ¾øÀ¸¸é ÇÔ¼ö ¸®ÅÏ 
+	// ë°ì´í„° ì—†ìœ¼ë©´ í•¨ìˆ˜ ë¦¬í„´ 
 	if (m_mapDialogInfo.end() == m_mapDialogInfo.find(wstrEventName))
 	{
 		return;
@@ -57,9 +58,9 @@ void CDialog_Manager::Start_DialogEvent(const wstring& wstrEventName)
 
 	if (!m_pDialogUI)
 	{
-		m_pDialogEpisode = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]´ëÈ­¹®_Á¦¸ñ.uidat");
+		m_pDialogEpisode = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ëŒ€í™”ë¬¸_ì œëª©.uidat");
 		assert(m_pDialogEpisode);
-		m_pDialogEnd = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]´ëÈ­¹®_Á¾·á_ÄÁÆ¼´º.uidat");
+		m_pDialogEnd = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ëŒ€í™”ë¬¸_ì¢…ë£Œ_ì»¨í‹°ë‰´.uidat");
 		assert(m_pDialogEnd);
 		m_pDialogUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]Dialogue.uidat");
 		assert(m_pDialogUI);
@@ -69,13 +70,13 @@ void CDialog_Manager::Start_DialogEvent(const wstring& wstrEventName)
 		assert(m_pBranch_1);
 		m_pBranch_2 = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]Branch_2.uidat");
 		assert(m_pBranch_2);
-		m_pButtonUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]´ëÈ­¹®_¹öÆ°µé.uidat");
+		m_pButtonUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ëŒ€í™”ë¬¸_ë²„íŠ¼ë“¤.uidat");
 		assert(m_pButtonUI);
-		m_pEmoticonUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ÀÌ¸ğÆ¼ÄÜ.uidat");
+		m_pEmoticonUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ì´ëª¨í‹°ì½˜.uidat");
 		assert(m_pEmoticonUI);
-		m_pSkipAnswerUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]´ëÈ­¹®½ºÅµÃ¢.uidat"); 
+		m_pSkipAnswerUI = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ëŒ€í™”ë¬¸ìŠ¤í‚µì°½.uidat"); 
 		assert(m_pSkipAnswerUI); 
-		CUI_Object*		pUiMenuButton = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]´ëÈ­¹®¸Ş´º¹öÆ°.uidat"); 
+		CUI_Object*		pUiMenuButton = CUI_Manager::GetInstance()->Load_UI_Prefab(L"../../Reference/Data/Data_UI/Prefab/Dialog/[Fixed]ëŒ€í™”ë¬¸ë©”ë‰´ë²„íŠ¼.uidat"); 
 		assert(pUiMenuButton); 
 
 		m_pCharacterUI = CUI_Object::Create(m_pGraphicDev, CUI_Manager::GetInstance()->Get_Hwnd(), E_OBJTAG::OBJ_UI);
@@ -158,7 +159,7 @@ void CDialog_Manager::Set_EndParsing(const wstring& wstrEventName)
 	m_mapDialogInfo[wstrEventName].shrink_to_fit();
 }
 
-// ÀÌº¥Æ®¿¡ »ç¿ëµÈ ÆÄ½Ì µ¥ÀÌÅÍµé »èÁ¦ 
+// ì´ë²¤íŠ¸ì— ì‚¬ìš©ëœ íŒŒì‹± ë°ì´í„°ë“¤ ì‚­ì œ 
 void CDialog_Manager::Clear_Map()
 {
 	map<const wstring, vector<T_DialogInfo*>>::iterator		iter_Map = m_mapDialogInfo.begin();
@@ -243,7 +244,7 @@ void CDialog_Manager::Emplace_MapDialogAppearChar(const wstring & wstrEventName,
 	m_mapAppearCharacter[wstrEventName].emplace_back(wstrCharName);
 }
 
-// XL_ParsingMgr¿¡¼­ ÆÄ½ÌµÈ µ¥ÀÌÅÍ ¹Ş¾Æ¿À±â 
+// XL_ParsingMgrì—ì„œ íŒŒì‹±ëœ ë°ì´í„° ë°›ì•„ì˜¤ê¸° 
 void CDialog_Manager::Emplace_MapDialogInfo(const wstring & wstrEventName, T_DialogInfo * tDialogInfo, const _uint& iSize)
 {
 	if (m_mapDialogInfo[wstrEventName].empty())
@@ -254,13 +255,13 @@ void CDialog_Manager::Emplace_MapDialogInfo(const wstring & wstrEventName, T_Dia
 	m_mapDialogInfo[wstrEventName].emplace_back(tDialogInfo);
 }
 
-// ÆÄ½ÌµÈ Ä³¸¯ÅÍ µ¥ÀÌÅÍ °¡Á®¿À±â 
+// íŒŒì‹±ëœ ìºë¦­í„° ë°ì´í„° ê°€ì ¸ì˜¤ê¸° 
 void CDialog_Manager::Emplace_MapDialogCharInfo(const wstring & wstrEventName, T_DialogCharInfo * tDialogCharInfo)
 {
 	m_mapDialogCharInfo[wstrEventName].emplace(pair<_uint, T_DialogCharInfo*>(tDialogCharInfo->iIndex, tDialogCharInfo));
 }
 
-// Renderer¿¡¼­ ´ëÈ­ ÆùÆ® Ãâ·Â 
+// Rendererì—ì„œ ëŒ€í™” í°íŠ¸ ì¶œë ¥ 
 void CDialog_Manager::Render_DialogFont()
 {
 	if (!Dialog_StartEpisode())
@@ -302,19 +303,19 @@ void CDialog_Manager::Render_DialogFont()
 		{
 			if (L"Name_Special" == m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharName)
 			{
-				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Bold, m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharName, Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
+				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Bold, m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharName, Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
 			}
 			else
 			{
 				E_CHAR_NAME		eCharName = (E_CHAR_NAME)CXL_ParsingMgr::GetInstance()->Translation_StringToEnum(m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharName, E_Translation_Type::Translation_CharInfo);
 
-				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Bold, CXL_ParsingMgr::GetInstance()->Translation_CharName(eCharName), Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
+				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Bold, CXL_ParsingMgr::GetInstance()->Translation_CharName(eCharName), Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
 			}
 		}
 
 		if (L"NULL" != m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharCircle)
 		{
-			CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Medium, m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharCircle, Dialog_CharCircle, (_color)C_LightBlue, 11, 21, FW_NORMAL, FALSE));
+			CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Medium, m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharCircle, Dialog_CharCircle, (_color)C_LightBlue, 11, 21, FW_NORMAL, FALSE));
 		}
 
 		if (L"NULL" != m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrTextDialog)
@@ -328,7 +329,7 @@ void CDialog_Manager::Render_DialogFont()
 					{
 						m_fTimeCount = 0.f;
 
-						Dialog_Event_AfterClick();	// ´ÙÀÌ¾ó·Î±× ÀÎµ¦½º Áõ°¡ 
+						Dialog_Event_AfterClick();	// ë‹¤ì´ì–¼ë¡œê·¸ ì¸ë±ìŠ¤ ì¦ê°€ 
 					}
 				}
 			}
@@ -347,7 +348,7 @@ void CDialog_Manager::Render_DialogFont()
 			if (L"Normal" == m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrDialogFontPos)
 			{
 				wstrText = CUtility::Auto_Line(wstrText, L" ", 35);
-				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Medium, wstrText, Dialog_Text, (_color)C_White, 13, 22, FW_NORMAL, FALSE));
+				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Medium, wstrText, Dialog_Text, (_color)C_White, 13, 22, FW_NORMAL, FALSE));
 			}
 		}
 		else
@@ -373,7 +374,7 @@ void CDialog_Manager::Render_DialogFont()
 	}
 }
 
-// ¿¡ÇÇ¼Òµå ½ÃÀÛ ½Ã Ã³¸® 
+// ì—í”¼ì†Œë“œ ì‹œì‘ ì‹œ ì²˜ë¦¬ 
 _bool CDialog_Manager::Dialog_StartEpisode()
 {
 	if (!m_bDialogStartEpisodeEnd &&
@@ -424,7 +425,7 @@ _bool CDialog_Manager::Dialog_StartEpisode()
 	return TRUE;
 }
 
-// ¿¡ÇÇ¼Òµå Á¾·á ½Ã Ã³¸® 
+// ì—í”¼ì†Œë“œ ì¢…ë£Œ ì‹œ ì²˜ë¦¬ 
 _bool CDialog_Manager::Dialog_EndEpisode()
 {
 	if (m_pDialogEnd)
@@ -456,7 +457,7 @@ _bool CDialog_Manager::Dialog_EndEpisode()
 				}
 				
 				m_pDialogEpisode->Set_Ui_Text(m_mapDialogInfo[m_wstrEventName][0]->wstrEpisodeNext);
-				m_pDialogEpisode->Get_ChildByIndex(0)->Set_Ui_Text(L"´ÙÀ½È­");
+				m_pDialogEpisode->Get_ChildByIndex(0)->Set_Ui_Text(L"ë‹¤ìŒí™”");
 
 				if (1.f <= m_pDialogEpisode->Get_ImageColor().a &&
 					m_fFadeInOutTime * 2.f <= m_fTimeCount)
@@ -476,7 +477,7 @@ _bool CDialog_Manager::Dialog_EndEpisode()
 	return TRUE;
 }
 
-// ÀÌ¸ğÆ¼ÄÜ ÀÌº¥Æ® ¾÷µ¥ÀÌÆ® 
+// ì´ëª¨í‹°ì½˜ ì´ë²¤íŠ¸ ì—…ë°ì´íŠ¸ 
 void CDialog_Manager::Update_Emoticon()
 {
 	if (!m_pEmoticonUI)
@@ -549,7 +550,7 @@ void CDialog_Manager::Update_Emoticon()
 	}
 }
 
-// ºĞ±â ÀÌº¥Æ® 
+// ë¶„ê¸° ì´ë²¤íŠ¸ 
 _bool CDialog_Manager::Branch_Event()
 {
 	if (L"Branch" == m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharName)
@@ -559,7 +560,7 @@ _bool CDialog_Manager::Branch_Event()
 		wstring		wstrText = m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrTextDialog;
 
 		wstrText = CUtility::Auto_Line(wstrText, L" ", 35);
-		CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Medium, wstrText, Dialog_Text, (_color)C_White, 13, 22, FW_NORMAL, FALSE));
+		CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Medium, wstrText, Dialog_Text, (_color)C_White, 13, 22, FW_NORMAL, FALSE));
 
 		Dialog_Event();
 
@@ -567,18 +568,18 @@ _bool CDialog_Manager::Branch_Event()
 		{
 			if (L"Name_Special" == m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrCharName)
 			{
-				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Bold, m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrCharName, Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
+				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Bold, m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrCharName, Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
 			}
 			else
 			{
 				E_CHAR_NAME		eCharName = (E_CHAR_NAME)CXL_ParsingMgr::GetInstance()->Translation_StringToEnum(m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrCharName, E_Translation_Type::Translation_CharInfo);
 
-				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Bold, CXL_ParsingMgr::GetInstance()->Translation_CharName(eCharName), Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
+				CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Bold, CXL_ParsingMgr::GetInstance()->Translation_CharName(eCharName), Dialog_CharName, (_color)C_White, 17, 28, FW_NORMAL, FALSE));
 			}
 		}
 		if (L"NULL" != m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrCharCircle)
 		{
-			CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_°æ±âÃµ³âÁ¦¸ñ_Medium, m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrCharCircle, Dialog_CharCircle, (_color)C_LightBlue, 11, 21, FW_NORMAL, FALSE));
+			CFontMgr::GetInstance()->Render_FontEveryFrame(T_RENDERFONT(FontTag_ê²½ê¸°ì²œë…„ì œëª©_Medium, m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->wstrCharCircle, Dialog_CharCircle, (_color)C_LightBlue, 11, 21, FW_NORMAL, FALSE));
 		}
 
 		switch (m_mapDialogInfo[m_wstrEventName][m_iDialogPreIndex]->iBranchOptionCount)
@@ -596,7 +597,7 @@ _bool CDialog_Manager::Branch_Event()
 
 		case 3:
 			m_pBranch_1->Set_Active(TRUE);
-			m_pBranch_1->Set_Ui_Text(L"¼±ÅÃÁö 3 - ¾ÆÁ÷ Ã³¸®µÇÁö ¾ÊÀ½");
+			m_pBranch_1->Set_Ui_Text(L"ì„ íƒì§€ 3 - ì•„ì§ ì²˜ë¦¬ë˜ì§€ ì•ŠìŒ");
 			break;
 
 		default:
@@ -610,13 +611,13 @@ _bool CDialog_Manager::Branch_Event()
 	return TRUE;
 }
 
-// Å° ÀÔ·Â °¨Áö 
+// í‚¤ ì…ë ¥ ê°ì§€ 
 void CDialog_Manager::Key_Input()
 {
 	if (CKeyManager::GetInstance()->Key_Down(KEY_LBUTTON) &&
 		E_DIALOG_LOCK::DIALOG_BRANCH != m_eDialogLock)
 	{
-		// Next Event¿¡ ´ëÇÑ Ã³¸® ÇÊ¿ä 
+		// Next Eventì— ëŒ€í•œ ì²˜ë¦¬ í•„ìš” 
 		if (m_iTextSize >= _uint(m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrTextDialog.length()))
 		{
 			!m_bClickCheck ? m_bClickCheck = TRUE : m_bClickCheck;
@@ -635,7 +636,7 @@ void CDialog_Manager::Key_Input()
 	}
 }
 
-// Å¬¸¯ ÀÌº¥Æ® 
+// í´ë¦­ ì´ë²¤íŠ¸ 
 void CDialog_Manager::Click_Event()
 {
 	switch (m_eDialogLock)
@@ -668,7 +669,7 @@ void CDialog_Manager::Click_Event()
 	}
 }
 
-// Å¬¸¯ ÀÌº¥Æ®(Àü, ÈÄ·Î ³ª´¸)
+// í´ë¦­ ì´ë²¤íŠ¸(ì „, í›„ë¡œ ë‚˜ë‰¨)
 void CDialog_Manager::Dialog_Event_BeforeClick()
 {
 	if (L"FadeOut" == m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->wstrScreenEvent ||
@@ -684,7 +685,7 @@ void CDialog_Manager::Dialog_Event_BeforeClick()
 	}
 }
 
-// Å¬¸¯ ÀÌº¥Æ®(Àü, ÈÄ·Î ³ª´¸)
+// í´ë¦­ ì´ë²¤íŠ¸(ì „, í›„ë¡œ ë‚˜ë‰¨)
 void CDialog_Manager::Dialog_Event_AfterClick()
 {
 	if (0.f < m_fClickDelay)
@@ -697,7 +698,7 @@ void CDialog_Manager::Dialog_Event_AfterClick()
 
 	if (0 != m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->iBranchOptionCount)
 	{
-		m_iDialogPreIndex = m_iDialogIndex;					// ºê·£Ä¡ ÀÌº¥Æ®¿ë º¯¼ö ÀúÀå 
+		m_iDialogPreIndex = m_iDialogIndex;					// ë¸Œëœì¹˜ ì´ë²¤íŠ¸ìš© ë³€ìˆ˜ ì €ì¥ 
 	}
 
 	if (0 != m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->iGotoBranchIndex)
@@ -720,7 +721,7 @@ void CDialog_Manager::Dialog_Event_AfterClick()
 	}
 }
 
-// ´ëÈ­¹® µµÁß Æ¯Á¤ ÀÌº¥Æ® ¹ß»ı ½Ã ½ÇÇà(Bgm, FadeIn, FadeOut µî)
+// ëŒ€í™”ë¬¸ ë„ì¤‘ íŠ¹ì • ì´ë²¤íŠ¸ ë°œìƒ ì‹œ ì‹¤í–‰(Bgm, FadeIn, FadeOut ë“±)
 void CDialog_Manager::Dialog_Event()
 {
 	if (m_iDialogIndex >= m_mapDialogInfo[m_wstrEventName].size())
@@ -775,7 +776,7 @@ void CDialog_Manager::Dialog_Event()
 	}
 }
 
-// Ä³¸¯ÅÍ ÀÌº¥Æ® Ã³¸® 
+// ìºë¦­í„° ì´ë²¤íŠ¸ ì²˜ë¦¬ 
 void CDialog_Manager::Dialog_CharEvent()
 {
 	if (-1 == m_mapDialogInfo[m_wstrEventName][m_iDialogIndex]->iSpecialEventIndex ||
@@ -946,49 +947,49 @@ void CDialog_Manager::Dialog_CharEvent()
 		}
 
 		// Emoticon || Uniqueness 
-		if (L"»ı°¢" == iter_Begin->second->wstrUniqueness)
+		if (L"ìƒê°" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Idea;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Think.wav", E_ChannelID::Channel_2, E_SoundType::FX, 0.7f);
 		}
-		else if (L"´À³¦Ç¥" == iter_Begin->second->wstrUniqueness)
+		else if (L"ëŠë‚Œí‘œ" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Exclamation;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Exclaim.wav", E_ChannelID::Channel_3, E_SoundType::FX, 0.7f);
 		}
-		else if (L"¾Ë¶÷" == iter_Begin->second->wstrUniqueness)
+		else if (L"ì•ŒëŒ" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Alarm;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Respond.wav", E_ChannelID::Channel_4, E_SoundType::FX, 0.7f);
 		}
-		else if (L"¾îÁö·¯¿ò" == iter_Begin->second->wstrUniqueness)
+		else if (L"ì–´ì§€ëŸ¬ì›€" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Anxiety;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Angry.wav", E_ChannelID::Channel_5, E_SoundType::FX, 0.7f);
 		}
-		else if (L"¶¡" == iter_Begin->second->wstrUniqueness)
+		else if (L"ë•€" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Sweat;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Sweat.wav", E_ChannelID::Channel_6, E_SoundType::FX, 0.7f);
 		}
-		else if (L"¹°À½Ç¥(»¡°­)" == iter_Begin->second->wstrUniqueness)
+		else if (L"ë¬¼ìŒí‘œ(ë¹¨ê°•)" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Question_Red;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Question.wav", E_ChannelID::Channel_7, E_SoundType::FX, 0.7f);
 		}
-		else if (L"¹°À½Ç¥(ÃÊ·Ï)" == iter_Begin->second->wstrUniqueness)
+		else if (L"ë¬¼ìŒí‘œ(ì´ˆë¡)" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Question_Green;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
 			CSound_Manager::GetInstance()->PlaySound_(L"SFX_Emoticon_Motion_Question.wav", E_ChannelID::Channel_8, E_SoundType::FX, 0.7f);
 		}
-		else if (L"À½Ç¥" == iter_Begin->second->wstrUniqueness)
+		else if (L"ìŒí‘œ" == iter_Begin->second->wstrUniqueness)
 		{
 			m_eCurEmoticon = Emoticon_Note;
 			m_pEmoticonUI->Get_ChildByIndex(m_eCurEmoticon)->Set_Ui_Pos(pCharUI->Get_Parent()->Get_Ui_Pos() + Dialog_Emoticon);
@@ -1001,7 +1002,7 @@ void CDialog_Manager::Dialog_CharEvent()
 	}
 }
 
-// ´ëÈ­¹® ÀÌº¥Æ® ½ºÅµ 
+// ëŒ€í™”ë¬¸ ì´ë²¤íŠ¸ ìŠ¤í‚µ 
 void CDialog_Manager::Skip_Dialog() 
 {
 	m_wstrEventName = L""; 
@@ -1013,10 +1014,10 @@ void CDialog_Manager::Skip_Dialog()
 
 	CUI_Manager::GetInstance()->Set_LobbyHighPanelActive();
 	CSound_Manager::GetInstance()->StopSound(E_ChannelID::BGM);
-	CSound_Manager::GetInstance()->PlayBGM(L"BGM_½Ã½ºÅÛ_½ºÅä¸®.mp3", 0.1f);
+	CSound_Manager::GetInstance()->PlayBGM(L"BGM_ì‹œìŠ¤í…œ_ìŠ¤í† ë¦¬.mp3", 0.1f);
 }
 
-// ºĞ±â¹® ¼±ÅÃ 
+// ë¶„ê¸°ë¬¸ ì„ íƒ 
 void CDialog_Manager::Return_BranchAnswer(_uint iBranchNumber)
 {
 	Dialog_CharEvent();
