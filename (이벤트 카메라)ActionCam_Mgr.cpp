@@ -1,3 +1,4 @@
+// (5ì¸ íŒ€) ë¸”ë£¨ì•„ì¹´ì´ë¸Œ ëª¨ì‘ì—ì„œì˜ ì»·ì‹ ìš© ì´ë²¤íŠ¸ ì¹´ë©”ë¼ ë‹´ë‹¹ ì½”ë“œ
 #include "ActionCam_Mgr.h"
 
 #include "CamControl_Eye.h"
@@ -28,7 +29,7 @@ HRESULT CActionCam_Mgr::Ready_ActionCamManager(LPDIRECT3DDEVICE9 pGraphicDev)
 	return S_OK;
 }
 
-// ½Ã°£ °ª°ú ÀÌº¥Æ® Ä«¸Ş¶óÀÇ ÀÌµ¿ °æ·Î¸¦ °»½Å 
+// ì‹œê°„ ê°’ê³¼ ì´ë²¤íŠ¸ ì¹´ë©”ë¼ì˜ ì´ë™ ê²½ë¡œë¥¼ ê°±ì‹  
 _int CActionCam_Mgr::Update_ActionCamManager(const _float& fTimeDelta)
 {
 	m_fTimeDelta = fTimeDelta; 
@@ -38,7 +39,7 @@ _int CActionCam_Mgr::Update_ActionCamManager(const _float& fTimeDelta)
 	return RETURN_OK;
 }
 
-// ÀÌº¥Æ® Ä«¸Ş¶ó ·Îµå ÇÔ¼ö(°³º°ÀûÀ¸·Î ÇÏ°í ½ÍÀ» ¶§¸¸ »ç¿ë)
+// ì´ë²¤íŠ¸ ì¹´ë©”ë¼ ë¡œë“œ í•¨ìˆ˜(ê°œë³„ì ìœ¼ë¡œ í•˜ê³  ì‹¶ì„ ë•Œë§Œ ì‚¬ìš©)
 HRESULT CActionCam_Mgr::Load_ActionCam(const wstring& wstrFileName)
 {
 	m_pScene = CScene::Get_MainScene();
@@ -65,12 +66,12 @@ HRESULT CActionCam_Mgr::Load_ActionCam(const wstring& wstrFileName)
 
 	wstring wstrKey = L"";
 
-	// 1. mapÀÇ »çÀÌÁî 
+	// 1. mapì˜ ì‚¬ì´ì¦ˆ 
 	CUtility::Data_ReadInt(hFile, iActionCamEyeSize, dwbyte);
 	CUtility::Data_ReadInt(hFile, iActionCamAtSize, dwbyte);
 	CUtility::Data_ReadInt(hFile, iSectionSpeedSize, dwbyte);
 
-	// 2. map »çÀÌÁî¸¸Å­ ¼øÈ¸ÇÏ¸é¼­ Key°ª°ú ValueÀÇ »çÀÌÁî 
+	// 2. map ì‚¬ì´ì¦ˆë§Œí¼ ìˆœíšŒí•˜ë©´ì„œ Keyê°’ê³¼ Valueì˜ ì‚¬ì´ì¦ˆ 
 	for (_int i = 0; i < iActionCamEyeSize; ++i)
 	{
 		CUtility::Data_ReadWString(hFile, wstrKey, dwbyte);
@@ -139,7 +140,7 @@ HRESULT CActionCam_Mgr::Load_ActionCam(const wstring& wstrFileName)
 	return S_OK;
 }
 
-// ÀÌº¥Æ® Ä«¸Ş¶ó ½ÃÀÛ(µû·Î ·ÎµåÇÏÁö ¾Ê¾Ò´Ù¸é ÀÚµ¿À¸·Î ÀÌº¥Æ® µ¥ÀÌÅÍ ·Îµå ÈÄ ½ÃÀÛ)
+// ì´ë²¤íŠ¸ ì¹´ë©”ë¼ ì‹œì‘(ë”°ë¡œ ë¡œë“œí•˜ì§€ ì•Šì•˜ë‹¤ë©´ ìë™ìœ¼ë¡œ ì´ë²¤íŠ¸ ë°ì´í„° ë¡œë“œ í›„ ì‹œì‘)
 void CActionCam_Mgr::Start_ActionCam(const wstring& wstrFileName, const wstring& wstrAction, _vec3 vPos, _float fYAngle, E_ActionCam_Mode eMode)
 {
 	if (m_dbMapActionEye.end() == m_dbMapActionEye.find(wstrFileName))
@@ -158,14 +159,14 @@ void CActionCam_Mgr::Start_ActionCam(const wstring& wstrFileName, const wstring&
 		}
 	}
 
-	// ·ÎµåÇÒ µ¥ÀÌÅÍ°¡ Á¸ÀçÇÏÁö ¾ÊÀ¸¸é ÄÚµå ½ÇÇàÄ¡ ¾Ê°í ÇÔ¼ö ¸®ÅÏ 
+	// ë¡œë“œí•  ë°ì´í„°ê°€ ì¡´ì¬í•˜ì§€ ì•Šìœ¼ë©´ ì½”ë“œ ì‹¤í–‰ì¹˜ ì•Šê³  í•¨ìˆ˜ ë¦¬í„´ 
 	if (!bExistKey)
 		return; 
 
 	m_fAngle_Rot_Y = fYAngle;
 	m_vAddPos = vPos;
 
-	// È£Ãâ°ú µ¿½Ã¿¡ Ã¹ ¹øÂ° ÀÎµ¦½º·Î ÀÌµ¿ 
+	// í˜¸ì¶œê³¼ ë™ì‹œì— ì²« ë²ˆì§¸ ì¸ë±ìŠ¤ë¡œ ì´ë™ 
 	if (!m_dbMapActionEye[wstrFileName].empty() &&
 		!m_dbMapActionAt[wstrFileName].empty())
 	{
@@ -205,7 +206,7 @@ void CActionCam_Mgr::Start_ActionCam(const wstring& wstrFileName, const wstring&
 	}
 }
 
-// ·ÎµåÇÏÁö ¾Ê°í ½ÃÀÛ, ·ÎµåÇÑ µ¥ÀÌÅÍ°¡ ¾ø´Ù¸é ÄÚµå ½ÇÇàÄ¡ ¾Ê°í ÇÔ¼ö Á¾·á 
+// ë¡œë“œí•˜ì§€ ì•Šê³  ì‹œì‘, ë¡œë“œí•œ ë°ì´í„°ê°€ ì—†ë‹¤ë©´ ì½”ë“œ ì‹¤í–‰ì¹˜ ì•Šê³  í•¨ìˆ˜ ì¢…ë£Œ 
 void CActionCam_Mgr::Start_ActionCam_NotLoad(const wstring & wstrFileName, const wstring & wstrAction, _vec3 vPos, _float fYAngle, E_ActionCam_Mode eMode)
 {
 	_bool		bExistKey = false;
@@ -219,14 +220,14 @@ void CActionCam_Mgr::Start_ActionCam_NotLoad(const wstring & wstrFileName, const
 		}
 	}
 
-	// ·ÎµåµÈ µ¥ÀÌÅÍ ¾øÀ» ½Ã ÄÚµå ½ÇÇàÄ¡ ¾Ê°í ÇÔ¼ö ¸®ÅÏ  
+	// ë¡œë“œëœ ë°ì´í„° ì—†ì„ ì‹œ ì½”ë“œ ì‹¤í–‰ì¹˜ ì•Šê³  í•¨ìˆ˜ ë¦¬í„´  
 	if (!bExistKey)
 		return;
 
 	m_fAngle_Rot_Y = fYAngle;
 	m_vAddPos = vPos;
 
-	// È£Ãâ°ú µ¿½Ã¿¡ Ã¹ ¹øÂ° ÀÎµ¦½º·Î ÀÌµ¿ 
+	// í˜¸ì¶œê³¼ ë™ì‹œì— ì²« ë²ˆì§¸ ì¸ë±ìŠ¤ë¡œ ì´ë™ 
 	if (!m_dbMapActionEye[wstrFileName].empty() &&
 		!m_dbMapActionAt[wstrFileName].empty())
 	{
@@ -266,7 +267,7 @@ void CActionCam_Mgr::Start_ActionCam_NotLoad(const wstring & wstrFileName, const
 	}
 }
 
-// ÀÌº¥Æ® Ä«¸Ş¶ó Á¾·á ½Ã ÃÊ±âÈ­ ÄÚµå (º°°³·Î ½ÇÇàÇÒ ÇÊ¿ä¾øÀ¸³ª ÇÊ¿ä ½Ã »ç¿ëÇØµµ µÊ)
+// ì´ë²¤íŠ¸ ì¹´ë©”ë¼ ì¢…ë£Œ ì‹œ ì´ˆê¸°í™” ì½”ë“œ (ë³„ê°œë¡œ ì‹¤í–‰í•  í•„ìš”ì—†ìœ¼ë‚˜ í•„ìš” ì‹œ ì‚¬ìš©í•´ë„ ë¨)
 void CActionCam_Mgr::Stop_ActionCam()
 {
 	m_eCurActionMode = ActionCam_Normal; 
@@ -281,7 +282,7 @@ void CActionCam_Mgr::Stop_ActionCam()
 	}
 }
 
-// ¼Ò¸êÀÚ¿Í ÇÔ²² È£Ãâ 
+// ì†Œë©¸ìì™€ í•¨ê»˜ í˜¸ì¶œ 
 void CActionCam_Mgr::Clear_MapActionCam()
 {
 	if (!m_dbMapActionEye.empty())
@@ -293,14 +294,14 @@ void CActionCam_Mgr::Clear_MapActionCam()
 	}
 }
 
-// ÀÌº¥Æ® Ä«¸Ş¶ó ÀÌµ¿ ÄÚµå 
+// ì´ë²¤íŠ¸ ì¹´ë©”ë¼ ì´ë™ ì½”ë“œ 
 void CActionCam_Mgr::MoveOn_Line()
 {
 	if (ActionCam_Observe == m_eCurActionMode || ActionCam_Subject == m_eCurActionMode)
 	{
 		m_fProgressCam = CUtility::Clamp_float(m_fProgressCam, 0.f, 1.f);
 
-		// Á¾·á ÄÚµå 
+		// ì¢…ë£Œ ì½”ë“œ 
 		if (m_iCurLineIndex == m_dbMapActionEye[m_wstrCurFile][m_wstrCurEvent].size() - 3 &&
 			m_fProgressCam >= 1.f)
 		{
@@ -333,7 +334,7 @@ void CActionCam_Mgr::MoveOn_Line()
 	}
 }
 
-// Ä«¸Ş¶ó Eye ÀÌµ¿ ÄÚµå 
+// ì¹´ë©”ë¼ Eye ì´ë™ ì½”ë“œ 
 void CActionCam_Mgr::Eye_Line()
 {
 	vector<CCamControl_Eye*>	vecPoint = m_dbMapActionEye[m_wstrCurFile][m_wstrCurEvent];
@@ -370,7 +371,7 @@ void CActionCam_Mgr::Eye_Line()
 	}
 }
 
-// Ä«¸Ş¶ó At ÀÌµ¿ ÄÚµå 
+// ì¹´ë©”ë¼ At ì´ë™ ì½”ë“œ 
 void CActionCam_Mgr::At_Line()
 {
 	vector<CCamControl_At*>		vecPoint = m_dbMapActionAt[m_wstrCurFile][m_wstrCurEvent];
@@ -402,7 +403,7 @@ void CActionCam_Mgr::At_Line()
 	}
 }
 
-// Ä¹¸Ö·Ò ÇÔ¼ö·Î °¡ÁßÄ¡ ´©ÀûÇÏ¿© °î¼± º¸°£ 
+// ìº£ë©€ë¡¬ í•¨ìˆ˜ë¡œ ê°€ì¤‘ì¹˜ ëˆ„ì í•˜ì—¬ ê³¡ì„  ë³´ê°„ 
 void CActionCam_Mgr::Make_Spline(_vec3 * vOutPos, const _vec3 & vPos0, const _vec3 & vPos1, const _vec3 & vPos2, const _vec3 & vPos3)
 {
 	_float fWeight = m_fProgressCam / 1.f;
